@@ -255,26 +255,19 @@ export default function Home() {
           What Can You Trade On?
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6 mb-10">
-          <Card className="p-6 border-gray-200">
-            <h4 className="text-xl font-bold mb-3 text-gray-900">📊 Politics & Elections</h4>
-            <p className="text-gray-600">Presidential races, congressional outcomes, policy decisions, approval ratings</p>
-          </Card>
-
-          <Card className="p-6 border-gray-200">
-            <h4 className="text-xl font-bold mb-3 text-gray-900">💰 Economics & Markets</h4>
-            <p className="text-gray-600">Inflation rates, Fed decisions, GDP forecasts, stock market milestones</p>
-          </Card>
-
-          <Card className="p-6 border-gray-200">
-            <h4 className="text-xl font-bold mb-3 text-gray-900">🏆 Sports</h4>
-            <p className="text-gray-600">Championship winners, MVP predictions, playoff outcomes, season records</p>
-          </Card>
-
-          <Card className="p-6 border-gray-200">
-            <h4 className="text-xl font-bold mb-3 text-gray-900">🌐 Pop Culture & More</h4>
-            <p className="text-gray-600">Box office results, award shows, tech launches, even weather events</p>
-          </Card>
+        <div className="prose prose-lg max-w-none mb-10">
+          <p className="text-gray-700 leading-relaxed mb-4">
+            <strong>Politics & Elections:</strong> Presidential races, congressional outcomes, policy decisions, approval ratings
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            <strong>Economics & Markets:</strong> Inflation rates, Fed decisions, GDP forecasts, stock market milestones
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            <strong>Sports:</strong> Championship winners, MVP predictions, playoff outcomes, season records
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            <strong>Everything Else:</strong> Box office results, award shows, tech launches, even weather events
+          </p>
         </div>
 
         {/* The Part People Ask About */}
