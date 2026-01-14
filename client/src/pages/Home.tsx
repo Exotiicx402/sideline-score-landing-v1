@@ -151,6 +151,84 @@ export default function Home() {
           </Button>
         </div>
 
+        {/* Testimonials Section */}
+        <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+          What Traders Are Saying
+        </h2>
+        <p className="text-lg text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          Thousands of people are already using prediction markets to put their knowledge to work.
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-6 mb-16">
+          <Card className="p-6 border-gray-200 bg-white">
+            <div className="flex items-start gap-3 mb-4">
+              <div className="flex-shrink-0">
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600">
+                  H
+                </div>
+              </div>
+              <div>
+                <div className="font-bold text-gray-900">Highroller</div>
+                <div className="text-sm text-gray-500">Ireland • Jan 2026</div>
+              </div>
+            </div>
+            <p className="text-gray-700 leading-relaxed">
+              "Best place for online gambling. 100% safe and fast transfers. In terms of trustworthiness and having money secure and paid out this is the best. Also they have 0% commission, prices are the best in the world!"
+            </p>
+          </Card>
+
+          <Card className="p-6 border-gray-200 bg-white">
+            <div className="flex items-start gap-3 mb-4">
+              <div className="flex-shrink-0">
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600">
+                  D
+                </div>
+              </div>
+              <div>
+                <div className="font-bold text-gray-900">David</div>
+                <div className="text-sm text-gray-500">Peru • Nov 2024</div>
+              </div>
+            </div>
+            <p className="text-gray-700 leading-relaxed">
+              "It's so far the best prediction market I have used. The 0% fees to trade make it the best betting site I have used from around 30 different sites including Betfair, Bet365, Pinnacle. 10/10"
+            </p>
+          </Card>
+
+          <Card className="p-6 border-gray-200 bg-white">
+            <div className="flex items-start gap-3 mb-4">
+              <div className="flex-shrink-0">
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600">
+                  R
+                </div>
+              </div>
+              <div>
+                <div className="font-bold text-gray-900">Richard</div>
+                <div className="text-sm text-gray-500">Canada • Jul 2024</div>
+              </div>
+            </div>
+            <p className="text-gray-700 leading-relaxed">
+              "I use it to supplement my income, it provides great incentives and ways to make cash. Placing predictions on things I think will happen. Great platform."
+            </p>
+          </Card>
+
+          <Card className="p-6 border-gray-200 bg-white">
+            <div className="flex items-start gap-3 mb-4">
+              <div className="flex-shrink-0">
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600">
+                  E
+                </div>
+              </div>
+              <div>
+                <div className="font-bold text-gray-900">Euan</div>
+                <div className="text-sm text-gray-500">Australia • Jan 2025</div>
+              </div>
+            </div>
+            <p className="text-gray-700 leading-relaxed">
+              "There's literally nothing untrustworthy with this site. I enjoy using this site and it has rewarded me very well!"
+            </p>
+          </Card>
+        </div>
+
         {/* What You Can Trade */}
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
           What Can You Trade On?
