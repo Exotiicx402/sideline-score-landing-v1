@@ -49,7 +49,7 @@ export default function Home() {
 
         {/* Subheadline */}
         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-          You made $500 doing <em>what</em>? Here's how people are turning their opinions into cash—legally, in all 50 states.
+          You made $500 doing <em>what</em>? Here's how people are turning their opinions into cash. Legally, in all 50 states.
         </p>
 
         {/* Opening Paragraphs */}
@@ -63,7 +63,7 @@ export default function Home() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            It's called <strong>prediction trading</strong>, and it's completely legal. A U.S.-regulated platform called <strong>Sideline Score</strong> lets you trade on real-world events like you'd trade stocks. Elections, inflation, sports outcomes—if it's happening, you can trade it.
+            It's called <strong>prediction trading</strong>, and it's completely legal. A U.S.-regulated platform called <strong>Sideline Score</strong> lets you trade on real-world events like you'd trade stocks. Elections, inflation, sports outcomes. If it's happening, you can trade it.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export default function Home() {
 
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
-            It's surprisingly simple. You pick an event you have an opinion on—say, "Will inflation go up next month?" or "Will Team X win the championship?"—and you buy shares in the outcome you think will happen.
+            It's surprisingly simple. You pick an event you have an opinion on—say, "Will inflation go up next month?" or "Will Team X win the championship?" You buy shares in the outcome you think will happen.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -98,7 +98,7 @@ export default function Home() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            It's not gambling. It's trading on information, just like the stock market—except instead of company earnings, you're trading on real-world events you already follow.
+            It's not gambling. It's trading on information, just like the stock market. Except instead of company earnings, you're trading on real-world events you already follow.
           </p>
         </div>
 
@@ -126,7 +126,7 @@ export default function Home() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>2. You're not betting against the house.</strong> The platform doesn't take the other side of your trade. They just run the marketplace. Other users are on the other side, which means the prices reflect real collective intelligence—not casino odds.
+            <strong>2. You're not betting against the house.</strong> The platform doesn't take the other side of your trade. They just run the marketplace. Other users are on the other side, which means the prices reflect real collective intelligence, not casino odds.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -193,7 +193,7 @@ export default function Home() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>What if I'm wrong?</strong> You lose what you paid for the shares. But that's why you can trade out early—cut your losses or lock in profits before the event resolves.
+            <strong>What if I'm wrong?</strong> You lose what you paid for the shares. But that's why you can trade out early. Cut your losses or lock in profits before the event resolves.
           </p>
         </div>
 
