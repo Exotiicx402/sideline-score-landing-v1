@@ -13,6 +13,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Star } from "lucide-react";
+import VersionSwitcher from "@/components/VersionSwitcher";
 
 export default function V2() {
   const currentDate = new Date().toLocaleDateString('en-US', { 
@@ -23,6 +24,8 @@ export default function V2() {
 
   return (
     <div className="min-h-screen bg-white">
+      <VersionSwitcher />
+      <div className="pt-16">
       {/* Header */}
       <header className="border-b border-gray-200 py-4">
         <div className="container max-w-4xl">
@@ -264,6 +267,7 @@ export default function V2() {
           </div>
         </div>
       </footer>
+      </div>
     </div>
   );
 }
