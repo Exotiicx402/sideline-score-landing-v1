@@ -42,7 +42,7 @@ export default function OneShot() {
 
           {/* Welcome Offer Badge */}
           <div className="mb-8 inline-block">
-            <div className="bg-white text-black px-6 py-2 rounded-full font-bold text-lg">
+            <div className="bg-blue-600 text-white px-6 py-2 rounded-full font-bold text-lg">
               Welcome Offer: $10 Bonus
             </div>
             <p className="text-sm text-gray-400 mt-2">When you trade $10+</p>
@@ -58,7 +58,7 @@ export default function OneShot() {
           <div className="mb-8">
             <Button 
               size="lg"
-              className="bg-white hover:bg-gray-200 text-black font-bold text-lg px-12 py-6 rounded-full transition-all duration-300 hover:scale-105"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-12 py-6 rounded-full transition-all duration-300 hover:scale-105"
               onClick={() => window.location.href = 'https://polymarket.com'}
             >
               Trade Now
@@ -76,7 +76,7 @@ export default function OneShot() {
               <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
                 alt="Get it on Google Play" 
-                className="h-12 grayscale"
+                className="h-12"
               />
             </a>
             <a 
@@ -88,7 +88,7 @@ export default function OneShot() {
               <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" 
                 alt="Download on the App Store" 
-                className="h-12 grayscale"
+                className="h-12"
               />
             </a>
           </div>
