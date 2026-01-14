@@ -44,7 +44,7 @@ export default function Home() {
 
         {/* Headline */}
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-          This Legal Platform Lets You Win Money on Elections, Sports, and Markets—From Any State
+          This Legal Platform Lets You Win Money on Elections, Sports, and Markets From Any State
         </h1>
 
         {/* Subheadline */}
@@ -59,7 +59,7 @@ export default function Home() {
           </p>
           
           <p className="text-gray-700 leading-relaxed mb-6">
-            Most people just argue about it online. But there's a growing group of people who are putting real money behind their predictions—and winning.
+            Most people just argue about it online. But there's a growing group of people who are putting real money behind their predictions and winning.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -79,7 +79,7 @@ export default function Home() {
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-12 py-6 rounded-full"
             onClick={() => window.location.href = 'https://polymarket.com'}
           >
-            Start Trading — It's Free
+            Start Trading. It's Free
           </Button>
         </div>
 
@@ -90,7 +90,7 @@ export default function Home() {
 
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
-            It's surprisingly simple. You pick an event you have an opinion on—say, "Will inflation go up next month?" or "Will Team X win the championship?" You buy shares in the outcome you think will happen.
+            It's surprisingly simple. You pick an event you have an opinion on. Say, "Will inflation go up next month?" or "Will Team X win the championship?" You buy shares in the outcome you think will happen.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -147,7 +147,7 @@ export default function Home() {
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-12 py-6 rounded-full"
             onClick={() => window.location.href = 'https://polymarket.com'}
           >
-            Get Started Now — It's Free
+            Get Started Now. It's Free
           </Button>
         </div>
 
