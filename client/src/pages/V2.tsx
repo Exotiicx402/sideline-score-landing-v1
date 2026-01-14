@@ -58,6 +58,15 @@ export default function V2() {
           The people who saw this 6 months ago are up thousands. The people reading this today still have a window. The people who wait? They'll be kicking themselves in 3 months.
         </p>
 
+        {/* Hero Image - Trading Interface */}
+        <div className="mb-10 rounded-lg overflow-hidden shadow-lg">
+          <img 
+            src="/images/trading-interface-mockup.png" 
+            alt="Prediction trading app interface" 
+            className="w-full"
+          />
+        </div>
+
         {/* Opening - Pattern Interrupt */}
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -93,6 +102,15 @@ export default function V2() {
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
           It's Called Prediction Trading. And The Smart Money Has Been Doing It For Years.
         </h2>
+
+        {/* Profit Calculation Visual */}
+        <div className="mb-8 rounded-lg overflow-hidden shadow-md bg-gray-50 p-6">
+          <img 
+            src="/images/profit-calculation-visual.png" 
+            alt="How prediction market profits work" 
+            className="w-full"
+          />
+        </div>
 
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -166,6 +184,15 @@ export default function V2() {
           </Card>
         </div>
 
+        {/* Success Image */}
+        <div className="mb-12 rounded-lg overflow-hidden shadow-lg">
+          <img 
+            src="/images/person-winning-phone.png" 
+            alt="Person celebrating trading win" 
+            className="w-full"
+          />
+        </div>
+
         {/* How It Works - Simplicity */}
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
           Here's How It Works (It's Stupidly Simple)
@@ -230,6 +257,15 @@ export default function V2() {
           <p className="text-gray-700 leading-relaxed mb-6">
             So the question is: Do you want to be the person who got in when it still mattered? Or the person who heard about it too late?
           </p>
+        </div>
+
+        {/* Trust Badges */}
+        <div className="mb-12 py-8 bg-gray-50 rounded-lg">
+          <img 
+            src="/images/trust-badges.png" 
+            alt="Platform trust and security badges" 
+            className="w-full max-w-3xl mx-auto px-6"
+          />
         </div>
 
         {/* Final CTA - Ego/Status */}

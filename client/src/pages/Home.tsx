@@ -56,6 +56,15 @@ export default function Home() {
           You made $500 doing <em>what</em>? Here's how people are turning their opinions into cash. Legally, in all 50 states.
         </p>
 
+        {/* Hero Image - Trading Interface */}
+        <div className="mb-10 rounded-lg overflow-hidden shadow-lg">
+          <img 
+            src="/images/trading-interface-mockup.png" 
+            alt="Prediction trading app interface" 
+            className="w-full"
+          />
+        </div>
+
         {/* Opening Paragraphs */}
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -91,6 +100,15 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
           How Does It Work?
         </h2>
+
+        {/* Profit Calculation Visual */}
+        <div className="mb-8 rounded-lg overflow-hidden shadow-md bg-gray-50 p-6">
+          <img 
+            src="/images/profit-calculation-visual.png" 
+            alt="How prediction market profits work" 
+            className="w-full"
+          />
+        </div>
 
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -155,9 +173,18 @@ export default function Home() {
           </Button>
         </div>
 
+        {/* Success Image */}
+        <div className="mb-12 rounded-lg overflow-hidden shadow-lg">
+          <img 
+            src="/images/person-winning-phone.png" 
+            alt="Person celebrating trading win" 
+            className="w-full"
+          />
+        </div>
+
         {/* Testimonials Section */}
         <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-          What Traders Are Saying
+          What People Are Saying
         </h2>
         <p className="text-lg text-gray-600 text-center mb-12 max-w-2xl mx-auto">
           Thousands of people are already using prediction markets to put their knowledge to work.
@@ -253,10 +280,19 @@ export default function Home() {
           </Card>
         </div>
 
-        {/* What You Can Trade */}
+        {/* What Can You Trade Section */}
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
           What Can You Trade On?
         </h2>
+
+        {/* Market Categories Visual */}
+        <div className="mb-8 rounded-lg overflow-hidden shadow-md">
+          <img 
+            src="/images/market-categories-visual.png" 
+            alt="Prediction market categories" 
+            className="w-full"
+          />
+        </div>
 
         <div className="prose prose-lg max-w-none mb-10">
           <p className="text-gray-700 leading-relaxed mb-4">
@@ -290,6 +326,15 @@ export default function Home() {
           <p className="text-gray-700 leading-relaxed mb-6">
             <strong>What if I'm wrong?</strong> You lose what you paid for the shares. But that's why you can trade out early. Cut your losses or lock in profits before the event resolves.
           </p>
+        </div>
+
+        {/* Trust Badges */}
+        <div className="mb-12 py-8 bg-gray-50 rounded-lg">
+          <img 
+            src="/images/trust-badges.png" 
+            alt="Platform trust and security badges" 
+            className="w-full max-w-3xl mx-auto px-6"
+          />
         </div>
 
         {/* Final CTA */}
