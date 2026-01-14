@@ -9,6 +9,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Star } from "lucide-react";
 
 export default function Home() {
   const currentDate = new Date().toLocaleDateString('en-US', { 
@@ -172,6 +173,11 @@ export default function Home() {
                 <div className="text-sm text-gray-500">Ireland • Jan 2026</div>
               </div>
             </div>
+            <div className="flex gap-1 mb-3">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 fill-blue-600 text-blue-600" />
+              ))}
+            </div>
             <p className="text-gray-700 leading-relaxed">
               "Best place for online gambling. 100% safe and fast transfers. In terms of trustworthiness and having money secure and paid out this is the best. Also they have 0% commission, prices are the best in the world!"
             </p>
@@ -188,6 +194,11 @@ export default function Home() {
                 <div className="font-bold text-gray-900">David</div>
                 <div className="text-sm text-gray-500">Peru • Nov 2024</div>
               </div>
+            </div>
+            <div className="flex gap-1 mb-3">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 fill-blue-600 text-blue-600" />
+              ))}
             </div>
             <p className="text-gray-700 leading-relaxed">
               "It's so far the best prediction market I have used. The 0% fees to trade make it the best betting site I have used from around 30 different sites including Betfair, Bet365, Pinnacle. 10/10"
@@ -206,6 +217,11 @@ export default function Home() {
                 <div className="text-sm text-gray-500">Canada • Jul 2024</div>
               </div>
             </div>
+            <div className="flex gap-1 mb-3">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 fill-blue-600 text-blue-600" />
+              ))}
+            </div>
             <p className="text-gray-700 leading-relaxed">
               "I use it to supplement my income, it provides great incentives and ways to make cash. Placing predictions on things I think will happen. Great platform."
             </p>
@@ -222,6 +238,11 @@ export default function Home() {
                 <div className="font-bold text-gray-900">Euan</div>
                 <div className="text-sm text-gray-500">Australia • Jan 2025</div>
               </div>
+            </div>
+            <div className="flex gap-1 mb-3">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 fill-blue-600 text-blue-600" />
+              ))}
             </div>
             <p className="text-gray-700 leading-relaxed">
               "There's literally nothing untrustworthy with this site. I enjoy using this site and it has rewarded me very well!"
