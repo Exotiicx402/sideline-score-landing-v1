@@ -49,7 +49,7 @@ export default function V4() {
         </p>
 
         {/* Success Image */}
-        <div className="mb-10 rounded-lg overflow-hidden shadow-lg">
+        <div className="mb-10 rounded-lg overflow-hidden shadow-lg max-w-2xl mx-auto">
           <img 
             src="/images/person-winning-phone.png" 
             alt="Person celebrating trading win" 
