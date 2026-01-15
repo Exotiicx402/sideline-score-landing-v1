@@ -60,13 +60,11 @@ export default function V7() {
         </div>
 
         {/* Hero Image */}
-        <div className="mb-10 flex justify-center">
+        <div className="mb-10 rounded-lg overflow-hidden shadow-lg">
           <img 
             src="/images/person-winning-phone.png" 
             alt="Person celebrating trading win" 
-            width="450"
-            height="800"
-            className="rounded-lg shadow-lg"
+            className="w-full"
           />
         </div>
 

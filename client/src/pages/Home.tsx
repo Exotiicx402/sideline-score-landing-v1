@@ -57,13 +57,11 @@ export default function Home() {
         </p>
 
         {/* Hero Image - Trading Interface */}
-        <div className="mb-10 flex justify-center">
+        <div className="mb-10 rounded-lg overflow-hidden shadow-lg">
           <img 
-            src="/images/person-winning-phone.png" 
-            alt="Person celebrating trading win" 
-            width="450"
-            height="800"
-            className="rounded-lg shadow-lg"
+            src="/images/trading-interface-mockup.png" 
+            alt="Prediction trading app interface" 
+            className="w-full"
           />
         </div>
 

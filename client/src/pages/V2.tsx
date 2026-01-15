@@ -185,13 +185,11 @@ export default function V2() {
         </div>
 
         {/* Success Image */}
-        <div className="mb-12 flex justify-center">
+        <div className="mb-12 rounded-lg overflow-hidden shadow-lg">
           <img 
             src="/images/person-winning-phone.png" 
             alt="Person celebrating trading win" 
-            width="450"
-            height="800"
-            className="rounded-lg shadow-lg"
+            className="w-full"
           />
         </div>
 
