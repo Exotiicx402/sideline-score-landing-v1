@@ -25,9 +25,9 @@ export default function V5() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="text-2xl font-bold">
-                <span className="text-blue-600">the</span>
-                <span className="text-gray-900">market</span>
-                <span className="text-blue-600">watch</span>
+                <span className="text-blue-600">Sideline</span>
+                <span className="text-gray-900"> Score</span>
+                
               </div>
             </div>
             <span className="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded">Advertorial</span>
@@ -37,7 +37,7 @@ export default function V5() {
 
       <article className="container max-w-4xl mx-auto px-6 py-12">
         <div className="text-sm text-gray-500 mb-8">
-          Published on {currentDate} by <span className="font-semibold">TheMarketWatch</span>
+          Published on {currentDate} by <span className="font-semibold">Sideline Score</span>
         </div>
 
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -65,7 +65,7 @@ export default function V5() {
 
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-gray-700 leading-relaxed mb-6">
-            There's a platform called <strong>Sideline Score</strong> where people are winning money on elections, sports, and market events. It's U.S. regulated. Completely legal. And it's exploding in popularity.
+            There's a platform called <strong>Sideline Score</strong> where sports fans are winning money on game outcomes, championships, and player props. It's U.S. regulated. Completely legal. And it's exploding in popularity.
           </p>
           
           <p className="text-gray-700 leading-relaxed mb-6">

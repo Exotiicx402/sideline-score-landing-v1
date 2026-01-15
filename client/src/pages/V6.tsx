@@ -25,9 +25,9 @@ export default function V6() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="text-2xl font-bold">
-                <span className="text-blue-600">the</span>
-                <span className="text-gray-900">market</span>
-                <span className="text-blue-600">watch</span>
+                <span className="text-blue-600">Sideline</span>
+                <span className="text-gray-900"> Score</span>
+                
               </div>
             </div>
             <span className="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded">Advertorial</span>
@@ -37,7 +37,7 @@ export default function V6() {
 
       <article className="container max-w-4xl mx-auto px-6 py-12">
         <div className="text-sm text-gray-500 mb-8">
-          Published on {currentDate} by <span className="font-semibold">TheMarketWatch</span>
+          Published on {currentDate} by <span className="font-semibold">Sideline Score</span>
         </div>
 
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -63,7 +63,7 @@ export default function V6() {
           </p>
           
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>Sideline Score</strong> is a U.S. regulated prediction market platform where you can trade on elections, sports, and economic events. Here's why the numbers make sense.
+            <strong>Sideline Score</strong> is a U.S. regulated prediction market platform where you can trade on sports outcomes. Here's why the numbers make sense for sports fans.
           </p>
         </div>
 

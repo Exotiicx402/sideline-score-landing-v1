@@ -31,7 +31,7 @@ export default function V2() {
         <div className="container max-w-4xl">
           <div className="flex justify-between items-center">
             <h1 className="text-2xl font-bold">
-              <span className="text-blue-600">the</span>
+              <span className="text-blue-600">Sideline</span>
               <span className="text-gray-900">marketwatch</span>
             </h1>
             <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded">
@@ -45,7 +45,7 @@ export default function V2() {
       <article className="container max-w-4xl py-12">
         {/* Byline */}
         <div className="text-sm text-gray-500 mb-8">
-          Published on {currentDate} by TheMarketWatch
+          Published on {currentDate} by Sideline Score
         </div>
 
         {/* Headline - Loss Aversion Hook */}
@@ -70,7 +70,7 @@ export default function V2() {
         {/* Opening - Pattern Interrupt */}
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-gray-700 leading-relaxed mb-6">
-            Let me guess. You called the election. You knew which team would win. You predicted the Fed would cut rates. And what did you get for being right?
+            Let me guess. You knew the Lakers would win. You called the Super Bowl matchup. You predicted the MVP before anyone else. And what did you get for being right?
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -78,7 +78,7 @@ export default function V2() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Meanwhile, there's a group of people who made the exact same predictions you did. Except they put money on it. And they're cashing out right now.
+            Meanwhile, there's a group of sports fans who made the exact same predictions you did. Except they put money on it. And they're cashing out right now.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -114,11 +114,11 @@ export default function V2() {
 
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-gray-700 leading-relaxed mb-6">
-            You know how Wall Street traders make money on stocks? This is the same thing. Except instead of betting on companies, you're betting on real world events. <strong>And just like stocks, you can cash out anytime.</strong>
+            You know how Wall Street traders make money on stocks? This is the same thing. Except instead of betting on companies, you're betting on sports outcomes. <strong>And just like stocks, you can cash out anytime.</strong>
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Elections. Sports championships. Economic data. Anything that has an outcome, you can trade it. The price moves based on probability. As the odds shift, so does your position. <strong>You're not locked in. Cash out whenever you want.</strong>
+            NBA championships. Super Bowl winners. MVP races. Player props. Anything in sports, you can trade it. The price moves based on probability. As the odds shift, so does your position. <strong>You're not locked in. Cash out whenever you want.</strong>
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">

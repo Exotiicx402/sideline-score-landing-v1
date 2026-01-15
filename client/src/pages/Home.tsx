@@ -29,9 +29,8 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="text-2xl font-bold">
-                <span className="text-blue-600">the</span>
-                <span className="text-gray-900">market</span>
-                <span className="text-blue-600">watch</span>
+                <span className="text-blue-600">Sideline</span>
+                <span className="text-gray-900"> Score</span>
               </div>
             </div>
             <span className="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded">Advertorial</span>
@@ -43,17 +42,17 @@ export default function Home() {
       <article className="container max-w-4xl mx-auto px-6 py-12">
         {/* Byline */}
         <div className="text-sm text-gray-500 mb-8">
-          Published on {currentDate} by <span className="font-semibold">TheMarketWatch</span>
+          Published on {currentDate} by <span className="font-semibold">Sideline Score</span>
         </div>
 
         {/* Headline */}
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-          This Legal Platform Lets You Win Money on Elections, Sports, and Markets From Any State
+          This Legal Platform Lets You Win Money on Sports From Any State
         </h1>
 
         {/* Subheadline */}
         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-          You made $500 doing <em>what</em>? Here's how people are turning their opinions into cash. Legally, in all 50 states.
+          You made $500 doing <em>what</em>? Here's how sports fans are turning their predictions into cash. Legally, in all 50 states.
         </p>
 
         {/* Hero Image - Trading Interface */}
@@ -68,7 +67,7 @@ export default function Home() {
         {/* Opening Paragraphs */}
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
-            If you follow politics, sports, or markets, you probably have strong opinions about what's going to happen next. Who's winning the election. Which team takes the championship. Where interest rates are headed.
+            If you follow sports, you probably have strong opinions about what's going to happen next. Which team takes the championship. Who wins MVP. Which player hits the over.
           </p>
           
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -76,7 +75,7 @@ export default function Home() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            It's called <strong>prediction trading</strong>, and it's completely legal. A U.S.-regulated platform called <strong>Sideline Score</strong> lets you trade on real-world events like you'd trade stocks. Elections, inflation, sports outcomes. If it's happening, you can trade it.
+            It's called <strong>sports prediction trading</strong>, and it's completely legal. A U.S.-regulated platform called <strong>Sideline Score</strong> lets you trade on sports outcomes. Championships, MVP races, playoff results. If it's happening in sports, you can trade it.
           </p>
         </div>
 
@@ -112,7 +111,7 @@ export default function Home() {
 
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
-            It's surprisingly simple. You pick an event you have an opinion on. Say, "Will inflation go up next month?" or "Will Team X win the championship?" You buy shares in the outcome you think will happen.
+            It's surprisingly simple. You pick a sports event you have an opinion on. Say, "Will the Lakers win the championship?" or "Will LeBron score over 25 points?" You buy shares in the outcome you think will happen.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -128,12 +127,12 @@ export default function Home() {
         <div className="bg-gray-50 rounded-lg p-8 mb-10">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Real Example:</h3>
           <div className="space-y-4 text-gray-700">
-            <p><strong>Market:</strong> "Will the Fed raise interest rates in March?"</p>
+            <p><strong>Market:</strong> "Will the Lakers win the NBA Championship?"</p>
             <p><strong>Your prediction:</strong> Yes</p>
-            <p><strong>Current price:</strong> 65¢ per share (meaning the market thinks there's a 65% chance)</p>
-            <p><strong>You buy:</strong> 100 shares for $65</p>
-            <p><strong>Outcome:</strong> The Fed raises rates</p>
-            <p className="text-green-600 font-bold"><strong>Your payout:</strong> $100 (profit: $35)</p>
+            <p><strong>Current price:</strong> 35¢ per share (meaning the market thinks there's a 35% chance)</p>
+            <p><strong>You buy:</strong> 100 shares for $35</p>
+            <p><strong>Outcome:</strong> Lakers win the championship</p>
+            <p className="text-green-600 font-bold"><strong>Your payout:</strong> $100 (profit: $65)</p>
           </div>
         </div>
 
@@ -296,16 +295,16 @@ export default function Home() {
 
         <div className="prose prose-lg max-w-none mb-10">
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>Politics & Elections:</strong> Presidential races, congressional outcomes, policy decisions, approval ratings
+            <strong>NBA:</strong> Championship winners, MVP predictions, playoff outcomes, player prop bets, season win totals
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>Economics & Markets:</strong> Inflation rates, Fed decisions, GDP forecasts, stock market milestones
+            <strong>NFL:</strong> Super Bowl winner, division champions, MVP races, player performance props, game outcomes
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>Sports:</strong> Championship winners, MVP predictions, playoff outcomes, season records
+            <strong>MLB:</strong> World Series winner, playoff matchups, MVP predictions, season records, individual stats
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>Everything Else:</strong> Box office results, award shows, tech launches, even weather events
+            <strong>Other Sports:</strong> NHL, soccer, tennis, golf, UFC, and more. If it's a major sporting event, you can trade it.
           </p>
         </div>
 
@@ -389,7 +388,7 @@ export default function Home() {
             Trading involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Sideline Score is an information markets platform. Not available in all jurisdictions. Please check your local regulations.
           </p>
           <p className="text-xs text-gray-400 text-center mt-4">
-            Copyright © {new Date().getFullYear()} TheMarketWatch
+            Copyright © {new Date().getFullYear()} Sideline Score
           </p>
         </div>
       </article>

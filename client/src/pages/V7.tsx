@@ -26,9 +26,9 @@ export default function V7() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="text-2xl font-bold">
-                <span className="text-blue-600">the</span>
-                <span className="text-gray-900">market</span>
-                <span className="text-blue-600">watch</span>
+                <span className="text-blue-600">Sideline</span>
+                <span className="text-gray-900"> Score</span>
+                
               </div>
             </div>
             <span className="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded">Advertorial</span>
@@ -38,7 +38,7 @@ export default function V7() {
 
       <article className="container max-w-4xl mx-auto px-6 py-12">
         <div className="text-sm text-gray-500 mb-8">
-          Published on {currentDate} by <span className="font-semibold">TheMarketWatch</span>
+          Published on {currentDate} by <span className="font-semibold">Sideline Score</span>
         </div>
 
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -52,7 +52,7 @@ export default function V7() {
         <div className="bg-red-50 border-2 border-red-400 rounded-lg p-8 mb-10">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">The Uncomfortable Truth</h3>
           <p className="text-gray-700 leading-relaxed mb-4">
-            You've been right about major events dozens of times. You called the election results. You knew which team would win. You predicted the Fed would cut rates.
+            You've been right about sports outcomes dozens of times. You called the championship winner. You knew which team would win. You predicted the MVP before anyone else.
           </p>
           <p className="text-gray-700 leading-relaxed">
             <strong>And you made exactly $0 from being right.</strong> Meanwhile, thousands of people who knew the same information you did? They're cashing out hundreds, sometimes thousands of dollars.
@@ -70,7 +70,7 @@ export default function V7() {
 
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-gray-700 leading-relaxed mb-6">
-            There's a U.S. regulated platform called <strong>Sideline Score</strong> where you can win money on elections, sports, and market events. It's completely legal. Zero fees. Available in all 50 states.
+            There's a U.S. regulated platform called <strong>Sideline Score</strong> where you can win money on sports outcomes. It's completely legal. Zero fees. Available in all 50 states.
           </p>
           
           <p className="text-gray-700 leading-relaxed mb-6">

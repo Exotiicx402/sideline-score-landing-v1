@@ -25,9 +25,9 @@ export default function V3() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="text-2xl font-bold">
-                <span className="text-blue-600">the</span>
-                <span className="text-gray-900">market</span>
-                <span className="text-blue-600">watch</span>
+                <span className="text-blue-600">Sideline</span>
+                <span className="text-gray-900"> Score</span>
+                
               </div>
             </div>
             <span className="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded">Advertorial</span>
@@ -37,7 +37,7 @@ export default function V3() {
 
       <article className="container max-w-4xl mx-auto px-6 py-12">
         <div className="text-sm text-gray-500 mb-8">
-          Published on {currentDate} by <span className="font-semibold">TheMarketWatch</span>
+          Published on {currentDate} by <span className="font-semibold">Sideline Score</span>
         </div>
 
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -50,7 +50,7 @@ export default function V3() {
 
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-gray-700 leading-relaxed mb-6">
-            You know how hedge funds make billions predicting elections, market moves, and major events? They have access to prediction markets. Places where you can literally buy and sell the outcome of real world events.
+            You know how sharp bettors make millions predicting sports outcomes? They have access to prediction markets. Places where you can literally buy and sell the outcome of sporting events.
           </p>
           
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -58,17 +58,17 @@ export default function V3() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>The platform is called Sideline Score.</strong> It's U.S. regulated. Completely legal. And it's the same type of market that Wall Street has been using for decades.
+            <strong>The platform is called Sideline Score.</strong> It's U.S. regulated. Completely legal. And it's the same type of market that sharp sports bettors have been using for years.
           </p>
         </div>
 
         <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 mb-10">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Why They Don't Want You To Know</h3>
           <p className="text-gray-700 leading-relaxed mb-4">
-            When regular people have access to the same tools as institutional investors, the edge disappears. The information asymmetry that made Wall Street billions? Gone.
+            When regular sports fans have access to the same tools as sharp bettors, the edge disappears. The information advantage that made pros millions? Gone.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            That's why you won't see this advertised on CNBC. That's why your financial advisor won't tell you about it. <strong>Because once everyone knows, the advantage is over.</strong>
+            That's why you won't see this advertised on ESPN. That's why traditional sportsbooks don't want you to know about it. <strong>Because once everyone knows, the advantage is over.</strong>
           </p>
         </div>
 
@@ -94,16 +94,16 @@ export default function V3() {
 
         <div className="prose prose-lg max-w-none mb-10">
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>Elections:</strong> Presidential races, congressional outcomes, state level results. The same markets political consultants use.
+            <strong>NBA:</strong> Championship winners, MVP predictions, playoff outcomes, player props. The same markets sharp bettors use.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>Economics:</strong> Fed decisions, inflation reports, GDP numbers. The data that moves billions in institutional money.
+            <strong>NFL:</strong> Super Bowl winner, division champions, MVP races, player performance, game outcomes.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>Sports:</strong> Championship winners, MVP predictions, playoff outcomes. Where sharp bettors make real money.
+            <strong>MLB:</strong> World Series winner, playoff matchups, MVP predictions, season records, individual stats.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>Everything Else:</strong> Tech launches, award shows, cultural events. If it's newsworthy, you can trade it.
+            <strong>Other Sports:</strong> NHL, soccer, tennis, golf, UFC. If it's a major sporting event, you can trade it.
           </p>
         </div>
 
@@ -120,7 +120,7 @@ export default function V3() {
 
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-gray-700 leading-relaxed mb-6">
-            You pick an event. Let's say "Will the Fed cut rates in March?" You think yes. You buy shares at the current price (say, 65 cents per share).
+            You pick a sports event. Let's say "Will the Lakers win the NBA Championship?" You think yes. You buy shares at the current price (say, 35 cents per share).
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
