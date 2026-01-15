@@ -109,7 +109,7 @@ export default function V4() {
             Elections. Sports championships. Economic data. Tech launches. Award shows. Anything that makes headlines, you can trade on it.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
-            You pick an outcome. Buy shares. If you're right, you win money. If you're wrong, you lose what you paid. But you can sell anytime before the event resolves, just like trading stocks.
+            You pick an outcome. Buy shares. If you're right, you win money. If you're wrong, you lose what you paid. But here's the key: <strong>you can cash out anytime, just like a stock.</strong> The price moves based on probability. As the odds change, so does your position. You're not locked in. <strong>Cash out whenever you want.</strong>
           </p>
         </div>
 

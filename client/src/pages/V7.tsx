@@ -103,7 +103,7 @@ export default function V7() {
             Traditional sportsbooks have a 4.5% house edge. They limit winners. They control the odds. <strong>Prediction markets are different.</strong>
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Zero trading fees. Market driven pricing. No limits on profitable traders. You can exit anytime. It's not gambling. It's trading on information you already have.
+            Zero trading fees. Market driven pricing. No limits on profitable traders. <strong>You can cash out anytime, just like a stock.</strong> The price moves based on probability. As the odds shift, so does your position. You're not locked in. It's not gambling. It's trading on information you already have.
           </p>
         </div>
 

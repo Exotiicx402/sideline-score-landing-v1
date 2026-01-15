@@ -114,11 +114,11 @@ export default function V2() {
 
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-gray-700 leading-relaxed mb-6">
-            You know how Wall Street traders make money on stocks? This is the same thing. Except instead of betting on companies, you're betting on real world events.
+            You know how Wall Street traders make money on stocks? This is the same thing. Except instead of betting on companies, you're betting on real world events. <strong>And just like stocks, you can cash out anytime.</strong>
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Elections. Sports championships. Economic data. Anything that has an outcome, you can trade it.
+            Elections. Sports championships. Economic data. Anything that has an outcome, you can trade it. The price moves based on probability. As the odds shift, so does your position. <strong>You're not locked in. Cash out whenever you want.</strong>
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">

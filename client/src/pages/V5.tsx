@@ -198,7 +198,7 @@ export default function V5() {
             <strong>2. Buy shares.</strong> If you think something will happen, buy "Yes" shares. Think it won't? Buy "No" shares.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>3. Win money.</strong> If you're right, each share pays $1. If you're wrong, you lose what you paid. But you can sell anytime before the event resolves.
+            <strong>3. Win money.</strong> If you're right, each share pays $1. If you're wrong, you lose what you paid. But here's the key: <strong>you can cash out anytime, just like a stock.</strong> The price moves based on probability. As new information comes in, the odds shift. You're not locked in. <strong>Cash out whenever you want.</strong>
           </p>
         </div>
 

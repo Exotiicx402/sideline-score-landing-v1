@@ -128,7 +128,7 @@ export default function V3() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            If you're wrong, you lose what you paid. But here's the key: <strong>you can sell anytime before the event resolves.</strong> Lock in profits early. Cut losses if you change your mind. Just like trading stocks.
+            If you're wrong, you lose what you paid. But here's the key: <strong>you can cash out anytime before the event resolves.</strong> The price moves based on probability as new information comes in. Lock in profits early. Cut losses if you change your mind. Just like trading stocks, you're not locked in until you choose to be.
           </p>
         </div>
 

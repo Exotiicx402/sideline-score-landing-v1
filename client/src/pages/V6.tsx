@@ -122,7 +122,7 @@ export default function V6() {
             <strong>Step 3: Trade Execution.</strong> Buy shares at current price. If the outcome resolves "Yes", each share pays $1.00. Your profit is $1.00 minus your entry price.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>Step 4: Exit Strategy.</strong> You can sell anytime before resolution. Lock in profits early or cut losses if your thesis changes.
+            <strong>Step 4: Exit Strategy.</strong> <strong>You can cash out anytime before resolution, just like a stock.</strong> The price moves based on probability as new information emerges. Lock in profits early or cut losses if your thesis changes. You're not locked in until the event resolves.
           </p>
         </div>
 

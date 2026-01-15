@@ -116,11 +116,11 @@ export default function Home() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            If you're right, your shares pay out $1 each. If you're wrong, you lose what you paid. But here's the key: <strong>you can trade in and out anytime</strong>. See the momentum shifting? Cash out early. Think the market's wrong? Buy more.
+            If you're right, your shares pay out $1 each. If you're wrong, you lose what you paid. But here's the key: <strong>you can cash out anytime, just like a stock</strong>. The price moves based on probability. See the momentum shifting? Cash out early and lock in profits. Think the market's wrong? Buy more shares at a better price.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            It's not gambling. It's trading on information, just like the stock market. Except instead of company earnings, you're trading on real-world events you already follow.
+            It's not gambling. It's trading on information. The price reflects probability and changes in real-time as new information comes in. You're not locked in until the event ends. <strong>Cash out whenever you want</strong>, whether you're up or down.
           </p>
         </div>
 
