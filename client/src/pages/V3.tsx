@@ -105,7 +105,7 @@ export default function V3() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Pick a Sports Outcome</h3>
-              <p className="text-gray-700">NBA championships. NFL winners. MLB playoffs. Browse live sports markets and choose what you have an opinion on.</p>
+              <p className="text-gray-700">Bucks vs Nuggets tonight? Buy shares of "Bucks win." Warriors to win the championship? Buy those shares. Each market is a specific outcome.</p>
             </div>
           </div>
 
@@ -113,7 +113,7 @@ export default function V3() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Buy Shares (Priced by Probability)</h3>
-              <p className="text-gray-700">Market shows 50¢? That's a 50% chance. Buy 100 shares for $50. If you're right, they pay $100. That's $50 profit.</p>
+              <p className="text-gray-700">Bucks down at halftime? Shares drop to 35¢. Buy 100 shares for $35. They win? Each share pays $1. That's $100 total, $65 profit.</p>
             </div>
           </div>
 
@@ -129,7 +129,7 @@ export default function V3() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Cash Out Anytime</h3>
-              <p className="text-gray-700"><strong>You're not locked in.</strong> Price jumps to 72¢? Sell and take profit. Want to wait for the full $1? Hold until the event ends. Your call.</p>
+              <p className="text-gray-700"><strong>You're not locked in.</strong> Bucks take the lead? Price jumps to 70¢. Sell now for $35 profit. Or hold until final buzzer for the full $65 if they win. Your call.</p>
             </div>
           </div>
         </div>

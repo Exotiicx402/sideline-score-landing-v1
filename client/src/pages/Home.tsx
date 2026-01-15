@@ -123,7 +123,7 @@ export default function Home() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Pick a Sports Outcome</h3>
-              <p className="text-gray-700">Browse live markets. "Will the Lakers win the championship?" "Will LeBron score over 25 points?" Pick what you have an opinion on.</p>
+              <p className="text-gray-700">Browse live markets. Lakers vs Heat tonight? You can buy shares of "Lakers win." Think LeBron scores over 25? Buy shares of that outcome. Pick what you believe will happen.</p>
             </div>
           </div>
 
@@ -131,7 +131,7 @@ export default function Home() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Buy Shares at Current Price</h3>
-              <p className="text-gray-700">Shares are priced based on probability. If the market shows 35¢, that means 35% chance. Buy 100 shares for $35. If you're right, they pay $100.</p>
+              <p className="text-gray-700">Lakers down at halftime? Shares might be 40¢ (40% chance). Buy 100 shares for $40. If Lakers come back and win, those shares pay $1 each. That's $100 total, $60 profit.</p>
             </div>
           </div>
 
@@ -147,7 +147,7 @@ export default function Home() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Cash Out Anytime (Or Wait)</h3>
-              <p className="text-gray-700"><strong>You're not locked in.</strong> See the price jump to 80¢? Sell now and lock in profit. Want to wait for the full $1? Hold until the event ends. Your choice.</p>
+              <p className="text-gray-700"><strong>You're not locked in.</strong> Lakers take the lead in the 4th? Price jumps to 80¢. Sell now for $80 profit. Or hold until final buzzer and get the full $100 if they win. Your choice.</p>
             </div>
           </div>
         </div>

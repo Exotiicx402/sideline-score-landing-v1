@@ -132,7 +132,7 @@ export default function V2() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Pick Your Outcome</h3>
-              <p className="text-gray-700">NBA championships. Super Bowl winners. MVP races. Player props. Browse live sports markets and pick what you have an opinion on.</p>
+              <p className="text-gray-700">Lakers vs Heat tonight? Buy shares of "Lakers win." Celtics to win the championship? Buy those shares. Each market is a specific outcome you can bet on.</p>
             </div>
           </div>
 
@@ -140,7 +140,7 @@ export default function V2() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Buy Shares (Priced by Probability)</h3>
-              <p className="text-gray-700">If the market says 40¢, that's a 40% chance. Buy 100 shares for $40. If you're right, they pay $100. That's $60 profit.</p>
+              <p className="text-gray-700">Lakers trailing at halftime? Shares drop to 40¢. Buy 100 shares for $40. They come back and win? Each share pays $1. That's $100 total, $60 profit.</p>
             </div>
           </div>
 
@@ -156,7 +156,7 @@ export default function V2() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Cash Out Anytime</h3>
-              <p className="text-gray-700"><strong>This is the key:</strong> You're not locked in. Price jumps to 75¢? Sell and take profit. Want to hold for the full $1? Wait until the event ends. Your call.</p>
+              <p className="text-gray-700"><strong>This is the key:</strong> Lakers take the lead? Price jumps to 75¢. Sell now for $35 profit. Or hold until final buzzer for the full $60 profit if they win. Your call.</p>
             </div>
           </div>
         </div>

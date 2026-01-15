@@ -124,7 +124,7 @@ export default function V6() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Select Sports Market</h3>
-              <p className="text-gray-700">Browse NBA championships, NFL winners, MVP races, player props. Choose an outcome you have an informed opinion on.</p>
+              <p className="text-gray-700">Mavericks vs Suns tonight? Buy shares of "Mavericks win." Yankees to win the World Series? Buy those shares. Each market is a specific outcome.</p>
             </div>
           </div>
 
@@ -132,7 +132,7 @@ export default function V6() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Buy Shares (Probability-Based Pricing)</h3>
-              <p className="text-gray-700">Market price = probability. Trading at 40¢? That's 40% chance. Buy 100 shares for $40. If correct, they pay $100. Profit: $60.</p>
+              <p className="text-gray-700">Mavericks down at halftime? Shares drop to 40¢. Buy 100 shares for $40. They win? Each share pays $1. That's $100 total, $60 profit.</p>
             </div>
           </div>
 
@@ -148,7 +148,7 @@ export default function V6() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Execute Exit Strategy</h3>
-              <p className="text-gray-700"><strong>You can cash out anytime, just like a stock.</strong> Price jumps to 70¢? Sell and realize profit. Want to hold for full $1? Wait for event resolution. Your decision.</p>
+              <p className="text-gray-700"><strong>You can cash out anytime, just like a stock.</strong> Mavericks take the lead? Price jumps to 70¢. Sell now for $30 profit. Or hold until final buzzer for the full $60 if they win. Your decision.</p>
             </div>
           </div>
         </div>
