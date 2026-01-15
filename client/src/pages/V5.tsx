@@ -63,13 +63,57 @@ export default function V5() {
           <p className="text-sm text-gray-600 mt-3">Get $10 bonus when you start. Takes 60 seconds.</p>
         </div>
 
-        <div className="prose prose-lg max-w-none mb-12">
+        <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
-            There's a platform called <strong>Sideline Score</strong> where sports fans are winning money on game outcomes, championships, and player props. It's U.S. regulated. Completely legal. And it's exploding in popularity.
+            There's a platform called <strong>Sideline Score</strong> where sports fans are winning money on game outcomes, championships, and player props. It's U.S. regulated. Completely legal. And it's exploding in popularity. Here's exactly how it works:
           </p>
-          
-          <p className="text-gray-700 leading-relaxed mb-6">
-            You pick an outcome. Buy shares. If you're right, you win. Simple as that. And right now, thousands of people are doing it every single day.
+        </div>
+
+        <div className="space-y-6 mb-8">
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Sign Up in 60 Seconds</h3>
+              <p className="text-gray-700">Create your account. No credit card required. Just basic info and you're in.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Pick a Sports Outcome</h3>
+              <p className="text-gray-700">NBA championships. NFL winners. MVP races. Player props. Browse live markets and pick what you have an opinion on.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Buy Shares (Priced by Probability)</h3>
+              <p className="text-gray-700">If the market shows 45¢, that's a 45% chance. Buy 100 shares for $45. If you're right, they pay $100. That's $55 profit.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Watch the Price Move</h3>
+              <p className="text-gray-700">As the odds shift, so does your position. Game momentum changes? The price changes. Your position goes up or down in real-time.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Cash Out Anytime</h3>
+              <p className="text-gray-700"><strong>You're not locked in.</strong> Price jumps to 75¢? Sell and lock in profit. Want to wait for the full $1? Hold until the event ends. Your choice.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-12">
+          <p className="text-gray-800 leading-relaxed">
+            <strong>Why everyone's switching:</strong> You can exit your position anytime. Traditional sportsbooks lock you in. Prediction markets let you cash out when the odds move in your favor.
           </p>
         </div>
 

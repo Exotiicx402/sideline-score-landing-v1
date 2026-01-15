@@ -108,21 +108,54 @@ export default function V6() {
         </div>
 
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          How Prediction Markets Work
+          How Prediction Markets Work (Step by Step)
         </h2>
 
-        <div className="prose prose-lg max-w-none mb-10">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>Step 1: Event Selection.</strong> Choose from thousands of markets. Elections, sports, economics, entertainment.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>Step 2: Price Discovery.</strong> Market prices reflect real time probability. If an outcome is trading at $0.65, the market thinks there's a 65% chance it happens.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>Step 3: Trade Execution.</strong> Buy shares at current price. If the outcome resolves "Yes", each share pays $1.00. Your profit is $1.00 minus your entry price.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>Step 4: Exit Strategy.</strong> <strong>You can cash out anytime before resolution, just like a stock.</strong> The price moves based on probability as new information emerges. Lock in profits early or cut losses if your thesis changes. You're not locked in until the event resolves.
+        <div className="space-y-6 mb-8">
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Create Account</h3>
+              <p className="text-gray-700">Sign up in 60 seconds. No credit card required. Basic information only.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Select Sports Market</h3>
+              <p className="text-gray-700">Browse NBA championships, NFL winners, MVP races, player props. Choose an outcome you have an informed opinion on.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Buy Shares (Probability-Based Pricing)</h3>
+              <p className="text-gray-700">Market price = probability. Trading at 40¢? That's 40% chance. Buy 100 shares for $40. If correct, they pay $100. Profit: $60.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Monitor Real-Time Price Movement</h3>
+              <p className="text-gray-700">As new information emerges, probability shifts. Game momentum changes? Price adjusts. Your position value changes accordingly.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Execute Exit Strategy</h3>
+              <p className="text-gray-700"><strong>You can cash out anytime, just like a stock.</strong> Price jumps to 70¢? Sell and realize profit. Want to hold for full $1? Wait for event resolution. Your decision.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-gray-50 border-l-4 border-gray-800 p-6 mb-10">
+          <p className="text-gray-800 leading-relaxed">
+            <strong>Key differentiator:</strong> Liquidity. You're not locked in until event resolution. Exit positions when probability shifts in your favor. Traditional sportsbooks don't offer this flexibility.
           </p>
         </div>
 

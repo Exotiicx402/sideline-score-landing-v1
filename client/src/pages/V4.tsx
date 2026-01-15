@@ -101,15 +101,54 @@ export default function V4() {
         </div>
 
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          What You Can Trade On
+          How It Works (The Complete Process)
         </h2>
 
-        <div className="prose prose-lg max-w-none mb-10">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Elections. Sports championships. Economic data. Tech launches. Award shows. Anything that makes headlines, you can trade on it.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-6">
-            You pick an outcome. Buy shares. If you're right, you win money. If you're wrong, you lose what you paid. But here's the key: <strong>you can cash out anytime, just like a stock.</strong> The price moves based on probability. As the odds change, so does your position. You're not locked in. <strong>Cash out whenever you want.</strong>
+        <div className="space-y-6 mb-8">
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Sign Up (60 Seconds)</h3>
+              <p className="text-gray-700">Create your Sideline Score account. No credit card required. Just basic info.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Pick a Sports Outcome</h3>
+              <p className="text-gray-700">NBA championships. NFL winners. MVP races. Player props. Browse live sports markets and choose what you have an opinion on.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Buy Shares (Priced by Probability)</h3>
+              <p className="text-gray-700">Market shows 30¢? That's a 30% chance. Buy 100 shares for $30. If you're right, they pay $100. That's $70 profit.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Watch Price Move in Real-Time</h3>
+              <p className="text-gray-700">As the odds change, so does your position. Game momentum shifts? The price shifts. Your position goes up or down.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Cash Out Anytime</h3>
+              <p className="text-gray-700"><strong>You're not locked in.</strong> Price jumps to 65¢? Sell and take profit. Want to wait for the full $1? Hold until the event ends. Your call.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-green-50 border-l-4 border-green-600 p-6 mb-10">
+          <p className="text-gray-800 leading-relaxed">
+            <strong>The key advantage:</strong> You can exit anytime. Traditional sportsbooks lock you in until the game ends. Prediction markets let you cash out when the odds shift.
           </p>
         </div>
 

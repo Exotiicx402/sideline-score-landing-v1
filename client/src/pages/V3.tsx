@@ -89,6 +89,58 @@ export default function V3() {
         </div>
 
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
+          How It Works (The Complete Process)
+        </h2>
+
+        <div className="space-y-6 mb-8">
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Sign Up (60 Seconds)</h3>
+              <p className="text-gray-700">Create your account. No credit card required. Basic info and you're in.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Pick a Sports Outcome</h3>
+              <p className="text-gray-700">NBA championships. NFL winners. MLB playoffs. Browse live sports markets and choose what you have an opinion on.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Buy Shares (Priced by Probability)</h3>
+              <p className="text-gray-700">Market shows 50¢? That's a 50% chance. Buy 100 shares for $50. If you're right, they pay $100. That's $50 profit.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Watch Price Move in Real-Time</h3>
+              <p className="text-gray-700">As the odds change, so does your position. Game momentum shifts? The price shifts. Your position goes up or down.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Cash Out Anytime</h3>
+              <p className="text-gray-700"><strong>You're not locked in.</strong> Price jumps to 72¢? Sell and take profit. Want to wait for the full $1? Hold until the event ends. Your call.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-green-50 border-l-4 border-green-600 p-6 mb-10">
+          <p className="text-gray-800 leading-relaxed">
+            <strong>The insider advantage:</strong> You can exit anytime. Traditional sportsbooks lock you in until the game ends. Prediction markets let you cash out when the odds shift in your favor.
+          </p>
+        </div>
+
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">
           Here's What You Can Trade On
         </h2>
 
@@ -118,17 +170,51 @@ export default function V3() {
           How It Actually Works
         </h2>
 
-        <div className="prose prose-lg max-w-none mb-12">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            You pick a sports event. Let's say "Will the Lakers win the NBA Championship?" You think yes. You buy shares at the current price (say, 35 cents per share).
-          </p>
+        <div className="space-y-6 mb-8">
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Create Your Account</h3>
+              <p className="text-gray-700">Sign up on Sideline Score in under 60 seconds. No credit card needed to start browsing markets.</p>
+            </div>
+          </div>
 
-          <p className="text-gray-700 leading-relaxed mb-6">
-            If you're right, each share pays $1. You just made 35 cents per share. Scale that up, and the profits add up fast.
-          </p>
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Choose a Sports Event</h3>
+              <p className="text-gray-700">"Will the Lakers win the NBA Championship?" "Will LeBron score 30+ points?" Pick any live sports market you have an opinion on.</p>
+            </div>
+          </div>
 
-          <p className="text-gray-700 leading-relaxed mb-6">
-            If you're wrong, you lose what you paid. But here's the key: <strong>you can cash out anytime before the event resolves.</strong> The price moves based on probability as new information comes in. Lock in profits early. Cut losses if you change your mind. Just like trading stocks, you're not locked in until you choose to be.
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Buy Shares at Current Price</h3>
+              <p className="text-gray-700">Shares are priced by probability. 35¢ means 35% chance. Buy 100 shares for $35. If you're right, they pay $100. That's $65 profit.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Price Moves in Real-Time</h3>
+              <p className="text-gray-700">As new information comes in, the price changes. Your position value goes up or down based on shifting probabilities.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Cash Out Anytime</h3>
+              <p className="text-gray-700"><strong>You're not locked in.</strong> Price jumps to 70¢? Sell and lock in profit. Want to wait for $1? Hold until the event ends. Your choice.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-yellow-50 border-l-4 border-yellow-600 p-6 mb-8">
+          <p className="text-gray-800 leading-relaxed">
+            <strong>The insider edge:</strong> You can exit before the event ends. Traditional betting locks you in. Prediction markets let you cash out when the odds shift in your favor.
           </p>
         </div>
 

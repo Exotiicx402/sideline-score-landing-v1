@@ -112,17 +112,62 @@ export default function V2() {
           />
         </div>
 
+        <div className="prose prose-lg max-w-none mb-8">
+          <p className="text-gray-700 leading-relaxed mb-6">
+            The platform is called <strong>Sideline Score</strong>. It's 100% legal. U.S. regulated. And it's been quietly growing while most people had no idea it existed. Here's exactly how it works:
+          </p>
+        </div>
+
+        <div className="space-y-6 mb-8">
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Sign Up in 60 Seconds</h3>
+              <p className="text-gray-700">Create an account. No credit card required to browse. Basic info and you're in.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Pick Your Outcome</h3>
+              <p className="text-gray-700">NBA championships. Super Bowl winners. MVP races. Player props. Browse live sports markets and pick what you have an opinion on.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Buy Shares (Priced by Probability)</h3>
+              <p className="text-gray-700">If the market says 40¢, that's a 40% chance. Buy 100 shares for $40. If you're right, they pay $100. That's $60 profit.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Watch the Price Move</h3>
+              <p className="text-gray-700">As the odds shift, so does your position. Game momentum changes? The price changes. Your position goes up or down in real-time.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Cash Out Anytime</h3>
+              <p className="text-gray-700"><strong>This is the key:</strong> You're not locked in. Price jumps to 75¢? Sell and take profit. Want to hold for the full $1? Wait until the event ends. Your call.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
+          <p className="text-gray-800 leading-relaxed">
+            <strong>The edge:</strong> You can exit anytime. Traditional sportsbooks lock you in. Prediction markets let you cash out when the momentum shifts. That's why smart money is switching.
+          </p>
+        </div>
+
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-gray-700 leading-relaxed mb-6">
-            You know how Wall Street traders make money on stocks? This is the same thing. Except instead of betting on companies, you're betting on sports outcomes. <strong>And just like stocks, you can cash out anytime.</strong>
-          </p>
-
-          <p className="text-gray-700 leading-relaxed mb-6">
-            NBA championships. Super Bowl winners. MVP races. Player props. Anything in sports, you can trade it. The price moves based on probability. As the odds shift, so does your position. <strong>You're not locked in. Cash out whenever you want.</strong>
-          </p>
-
-          <p className="text-gray-700 leading-relaxed mb-6">
-            The platform is called <strong>Sideline Score</strong>. It's 100% legal. U.S. regulated. And it's been quietly growing while most people had no idea it existed.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">

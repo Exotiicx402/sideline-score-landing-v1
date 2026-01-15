@@ -109,17 +109,51 @@ export default function Home() {
           />
         </div>
 
-        <div className="prose prose-lg max-w-none mb-8">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            It's surprisingly simple. You pick a sports event you have an opinion on. Say, "Will the Lakers win the championship?" or "Will LeBron score over 25 points?" You buy shares in the outcome you think will happen.
-          </p>
+        <div className="space-y-6 mb-8">
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Sign Up (Takes 60 Seconds)</h3>
+              <p className="text-gray-700">Create your account on Sideline Score. No credit card required to start. Just basic info and you're in.</p>
+            </div>
+          </div>
 
-          <p className="text-gray-700 leading-relaxed mb-6">
-            If you're right, your shares pay out $1 each. If you're wrong, you lose what you paid. But here's the key: <strong>you can cash out anytime, just like a stock</strong>. The price moves based on probability. See the momentum shifting? Cash out early and lock in profits. Think the market's wrong? Buy more shares at a better price.
-          </p>
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Pick a Sports Outcome</h3>
+              <p className="text-gray-700">Browse live markets. "Will the Lakers win the championship?" "Will LeBron score over 25 points?" Pick what you have an opinion on.</p>
+            </div>
+          </div>
 
-          <p className="text-gray-700 leading-relaxed mb-6">
-            It's not gambling. It's trading on information. The price reflects probability and changes in real-time as new information comes in. You're not locked in until the event ends. <strong>Cash out whenever you want</strong>, whether you're up or down.
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Buy Shares at Current Price</h3>
+              <p className="text-gray-700">Shares are priced based on probability. If the market shows 35¢, that means 35% chance. Buy 100 shares for $35. If you're right, they pay $100.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Watch the Price Move in Real-Time</h3>
+              <p className="text-gray-700">As the game progresses or news breaks, the price changes. Your position goes up or down based on how the odds shift.</p>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2">Cash Out Anytime (Or Wait)</h3>
+              <p className="text-gray-700"><strong>You're not locked in.</strong> See the price jump to 80¢? Sell now and lock in profit. Want to wait for the full $1? Hold until the event ends. Your choice.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8">
+          <p className="text-gray-800 leading-relaxed">
+            <strong>Key difference from traditional betting:</strong> You can exit your position anytime. The price moves based on probability. It's not gambling, it's trading on information. Cash out when you want, whether you're up or down.
           </p>
         </div>
 
