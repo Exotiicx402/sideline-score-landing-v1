@@ -24,11 +24,11 @@ export default function V3() {
         <div className="container max-w-4xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="text-2xl font-bold">
-                <span className="text-blue-600">Sideline</span>
-                <span className="text-gray-900"> Score</span>
-                
-              </div>
+              <img 
+                src="/images/sideline-score-logo.png" 
+                alt="Sideline Score" 
+                className="h-8"
+              />
             </div>
             <span className="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded">Advertorial</span>
           </div>

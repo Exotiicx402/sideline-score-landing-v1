@@ -30,10 +30,11 @@ export default function V2() {
       <header className="border-b border-gray-200 py-4">
         <div className="container max-w-4xl">
           <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold">
-              <span className="text-blue-600">Sideline</span>
-              <span className="text-gray-900">marketwatch</span>
-            </h1>
+            <img 
+              src="/images/sideline-score-logo.png" 
+              alt="Sideline Score" 
+              className="h-8"
+            />
             <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded">
               Advertorial
             </span>
