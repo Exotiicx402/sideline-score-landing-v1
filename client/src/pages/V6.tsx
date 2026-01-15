@@ -27,7 +27,7 @@ export default function V6() {
               <img 
                 src="/images/sideline-score-logo.png" 
                 alt="Sideline Score" 
-                className="h-8"
+                className="h-8" style={{width: '100px', height: '100px'}}
               />
             </div>
             <span className="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded">Advertorial</span>
