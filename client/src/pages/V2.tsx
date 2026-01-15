@@ -115,7 +115,7 @@ export default function V2() {
 
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
-            The platform is called <strong>Sideline Score</strong>. It's 100% legal. U.S. regulated. And it's been quietly growing while most people had no idea it existed. Here's exactly how it works:
+            The platform is called <strong>Polymarket</strong>. It's 100% legal. U.S. regulated. And it's been quietly growing while most people had no idea it existed. Here's exactly how it works:
           </p>
         </div>
 
@@ -335,7 +335,7 @@ export default function V2() {
         {/* Disclaimer */}
         <div className="mt-16 pt-8 border-t border-gray-200 text-xs text-gray-500 leading-relaxed">
           <p className="mb-2">
-            Trading involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Sideline Score is an information markets platform. Not available in all jurisdictions. Please check your local regulations.
+            Trading involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Polymarket is an information markets platform. Not available in all jurisdictions. Please check your local regulations.
           </p>
         </div>
       </article>

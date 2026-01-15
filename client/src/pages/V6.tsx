@@ -63,7 +63,7 @@ export default function V6() {
           </p>
           
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>Sideline Score</strong> is a U.S. regulated prediction market platform where you can trade on sports outcomes. Here's why the numbers make sense for sports fans.
+            <strong>Polymarket</strong> is a U.S. regulated prediction market platform where you can trade on sports outcomes. Here's why the numbers make sense for sports fans.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ export default function V6() {
             <div>
               <h4 className="font-bold text-gray-900 mb-3">Prediction Markets</h4>
               <ul className="space-y-2 text-gray-700">
-                <li>• 0% trading fees on Sideline Score</li>
+                <li>• 0% trading fees on Polymarket</li>
                 <li>• Market driven pricing</li>
                 <li>• Withdraw anytime</li>
                 <li>• No limits on profitable traders</li>
@@ -211,7 +211,7 @@ export default function V6() {
 
         <div className="prose prose-lg max-w-none mb-10">
           <p className="text-gray-700 leading-relaxed mb-6">
-            Sideline Score operates under CFTC (Commodity Futures Trading Commission) oversight. It's classified as an event contract market, not a gambling platform.
+            Polymarket operates under CFTC (Commodity Futures Trading Commission) oversight. It's classified as an event contract market, not a gambling platform.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
             <strong>Legal status:</strong> Available in all 50 states. No geographic restrictions for U.S. residents.
@@ -307,7 +307,7 @@ export default function V6() {
             <a href="#" className="hover:text-gray-700">Privacy Policy</a> | <a href="#" className="hover:text-gray-700">Terms of Service</a>
           </p>
           <p className="leading-relaxed max-w-3xl mx-auto">
-            Trading involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Sideline Score is an information markets platform. Not available in all jurisdictions. Please check your local regulations.
+            Trading involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Polymarket is an information markets platform. Not available in all jurisdictions. Please check your local regulations.
           </p>
         </div>
       </article>

@@ -76,7 +76,7 @@ export default function Home() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            It's called <strong>sports prediction trading</strong>, and it's completely legal. A U.S.-regulated platform called <strong>Sideline Score</strong> lets you trade on sports outcomes. Championships, MVP races, playoff results. If it's happening in sports, you can trade it.
+            It's called <strong>sports prediction trading</strong>, and it's completely legal. A U.S.-regulated platform called <strong>Polymarket</strong> lets you trade on sports outcomes. Championships, MVP races, playoff results. If it's happening in sports, you can trade it.
           </p>
         </div>
 
@@ -115,7 +115,7 @@ export default function Home() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Sign Up (Takes 60 Seconds)</h3>
-              <p className="text-gray-700">Create your account on Sideline Score. No credit card required to start. Just basic info and you're in.</p>
+              <p className="text-gray-700">Create your account on Polymarket. No credit card required to start. Just basic info and you're in.</p>
             </div>
           </div>
 
@@ -178,7 +178,7 @@ export default function Home() {
 
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>1. It's actually legal.</strong> Sideline Score is U.S.-regulated and available in all 50 states. It's not a sportsbook, not a loophole. It's a federally approved prediction market.
+            <strong>1. It's actually legal.</strong> Polymarket is U.S.-regulated and available in all 50 states. It's not a sportsbook, not a loophole. It's a federally approved prediction market.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -350,7 +350,7 @@ export default function Home() {
 
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>Is this legal?</strong> Yes. Sideline Score is federally regulated and operates in all 50 states. It's not a sportsbook and not a workaround. It's a licensed prediction market platform.
+            <strong>Is this legal?</strong> Yes. Polymarket is federally regulated and operates in all 50 states. It's not a sportsbook and not a workaround. It's a licensed prediction market platform.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -420,7 +420,7 @@ export default function Home() {
             <a href="#" className="hover:text-gray-700">Terms of Service</a>
           </div>
           <p className="text-xs text-gray-500 leading-relaxed text-center max-w-3xl mx-auto">
-            Trading involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Sideline Score is an information markets platform. Not available in all jurisdictions. Please check your local regulations.
+            Trading involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Polymarket is an information markets platform. Not available in all jurisdictions. Please check your local regulations.
           </p>
           <p className="text-xs text-gray-400 text-center mt-4">
             Copyright © {new Date().getFullYear()} Sideline Score

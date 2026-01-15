@@ -58,7 +58,7 @@ export default function V3() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>The platform is called Sideline Score.</strong> It's U.S. regulated. Completely legal. And it's the same type of market that sharp sports bettors have been using for years.
+            <strong>The platform is called Polymarket.</strong> It's U.S. regulated. Completely legal. And it's the same type of market that sharp sports bettors have been using for years.
           </p>
         </div>
 
@@ -291,7 +291,7 @@ export default function V3() {
             <a href="#" className="hover:text-gray-700">Privacy Policy</a> | <a href="#" className="hover:text-gray-700">Terms of Service</a>
           </p>
           <p className="leading-relaxed max-w-3xl mx-auto">
-            Trading involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Sideline Score is an information markets platform. Not available in all jurisdictions. Please check your local regulations.
+            Trading involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Polymarket is an information markets platform. Not available in all jurisdictions. Please check your local regulations.
           </p>
         </div>
       </article>
