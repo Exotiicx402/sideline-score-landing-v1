@@ -75,7 +75,7 @@ export default function V3() {
         <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-8 mb-10 text-center">
           <div className="mb-4">
             <span className="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-bold text-lg">
-              Get $10 Bonus When You Start
+              Get $10 Free Upon Sign Up
             </span>
           </div>
           <Button 
@@ -270,7 +270,7 @@ export default function V3() {
         <div className="bg-blue-600 text-white rounded-lg p-10 mb-10 text-center">
           <h3 className="text-3xl font-bold mb-4">Get In While You Still Can</h3>
           <p className="text-xl text-blue-100 mb-6">
-            $10 bonus when you start. Takes 60 seconds to sign up. No credit card required.
+            $10 free upon sign up. No trading required. Takes 60 seconds. No credit card needed.
           </p>
           <Button 
             size="lg"

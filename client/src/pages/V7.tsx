@@ -81,7 +81,7 @@ export default function V7() {
         <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-8 mb-10 text-center">
           <div className="mb-4">
             <span className="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-bold text-lg">
-              Limited Time: Get $10 Bonus When You Start
+              Limited Time: Get $10 Free Upon Sign Up
             </span>
           </div>
           <Button 
@@ -338,7 +338,7 @@ export default function V7() {
         <div className="bg-blue-600 text-white rounded-lg p-10 mb-10 text-center">
           <h3 className="text-3xl font-bold mb-4">You're Already Smarter Than Most People</h3>
           <p className="text-xl text-blue-100 mb-6">
-            You've been right about major events. You just haven't been paid for it. That changes today. $10 bonus when you start.
+            You've been right about major events. You just haven't been paid for it. That changes today. $10 free upon sign up. No trading required.
           </p>
           <Button 
             size="lg"

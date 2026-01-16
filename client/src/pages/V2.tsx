@@ -96,7 +96,7 @@ export default function V2() {
           >
             Show Me How This Works
           </Button>
-          <p className="text-sm text-gray-500 mt-3">$10 bonus when you start. No credit card required.</p>
+          <p className="text-sm text-gray-500 mt-3">$10 free upon sign up. No credit card required.</p>
         </div>
 
         {/* The Reveal - Authority */}

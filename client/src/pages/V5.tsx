@@ -60,7 +60,7 @@ export default function V5() {
           >
             See What Everyone's Talking About
           </Button>
-          <p className="text-sm text-gray-600 mt-3">Get $10 bonus when you start. Takes 60 seconds.</p>
+          <p className="text-sm text-gray-600 mt-3">Get $10 free upon sign up. No trading required. Takes 60 seconds.</p>
         </div>
 
         <div className="prose prose-lg max-w-none mb-8">
@@ -303,7 +303,7 @@ export default function V5() {
         <div className="bg-blue-600 text-white rounded-lg p-10 mb-10 text-center">
           <h3 className="text-3xl font-bold mb-4">Join 50,000+ Traders Today</h3>
           <p className="text-xl text-blue-100 mb-6">
-            Get $10 bonus when you start. Takes 60 seconds to sign up. See what everyone's talking about.
+            Get $10 free upon sign up. No trading required. Takes 60 seconds. See what everyone's talking about.
           </p>
           <Button 
             size="lg"

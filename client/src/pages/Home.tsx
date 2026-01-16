@@ -84,7 +84,7 @@ export default function Home() {
         <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-8 mb-10 text-center">
           <div className="mb-4">
             <span className="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-bold text-lg">
-              Get $10 Bonus When You Trade $10+
+              Get $10 Free Upon Sign Up
             </span>
           </div>
           <Button 
@@ -375,7 +375,7 @@ export default function Home() {
         <div className="bg-blue-600 text-white rounded-lg p-10 mb-10 text-center">
           <h3 className="text-3xl font-bold mb-4">Start Winning Today</h3>
           <p className="text-xl text-blue-100 mb-6">
-            Get $10 bonus when you trade $10 or more. Sign up in under a minute.
+            Get $10 free just for signing up. No trading required. Takes under a minute.
           </p>
           <Button 
             size="lg"
