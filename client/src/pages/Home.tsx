@@ -68,7 +68,7 @@ export default function Home() {
         {/* Opening Paragraphs */}
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
-            If you follow sports, you probably have strong opinions about what's going to happen next. Which team takes the championship. Who wins MVP. Which team wins tonight's game.
+            If you follow sports, you probably have strong opinions about what's going to happen next. Which team wins tonight's game. Who takes the series. Which team comes back from behind.
           </p>
           
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -76,7 +76,7 @@ export default function Home() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            It's called <strong>sports prediction trading</strong>, and it's completely legal. A U.S.-regulated platform called <strong>Polymarket</strong> lets you trade on sports outcomes. Championships, MVP races, playoff results. If it's happening in sports, you can trade it.
+            It's called <strong>sports prediction trading</strong>, and it's completely legal. A U.S.-regulated platform called <strong>Polymarket</strong> lets you trade on game outcomes. Lakers vs Heat. Celtics vs 76ers. Warriors vs Suns. Pick which team wins, buy shares, and cash out anytime.
           </p>
         </div>
 
@@ -123,7 +123,7 @@ export default function Home() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Pick a Sports Outcome</h3>
-              <p className="text-gray-700">Browse live markets. Lakers vs Heat tonight? You can buy shares of "Lakers win." Warriors to win the championship? Buy shares of that outcome. Pick what you believe will happen.</p>
+              <p className="text-gray-700">Browse live games. Lakers vs Heat tonight? You can buy shares of "Lakers win." Celtics vs 76ers? Buy shares of "Celtics win." Pick which team you think will win.</p>
             </div>
           </div>
 
@@ -162,11 +162,11 @@ export default function Home() {
         <div className="bg-gray-50 rounded-lg p-8 mb-10">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Real Example:</h3>
           <div className="space-y-4 text-gray-700">
-            <p><strong>Market:</strong> "Will the Lakers win the NBA Championship?"</p>
+            <p><strong>Market:</strong> "Lakers vs Heat Tonight"</p>
             <p><strong>Your prediction:</strong> Yes</p>
             <p><strong>Current price:</strong> 35¢ per share (meaning the market thinks there's a 35% chance)</p>
             <p><strong>You buy:</strong> 100 shares for $35</p>
-            <p><strong>Outcome:</strong> Lakers win the championship</p>
+            <p><strong>Outcome:</strong> Lakers win the game</p>
             <p className="text-green-600 font-bold"><strong>Your payout:</strong> $100 (profit: $65)</p>
           </div>
         </div>
@@ -330,16 +330,16 @@ export default function Home() {
 
         <div className="prose prose-lg max-w-none mb-10">
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>NBA:</strong> Championship winners, MVP predictions, playoff outcomes, game winners, season win totals
+            <strong>NBA:</strong> Lakers vs Heat, Celtics vs 76ers, Warriors vs Suns. Every major NBA game has live markets.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>NFL:</strong> Super Bowl winner, division champions, MVP races, playoff outcomes, game winners
+            <strong>NFL:</strong> Chiefs vs Bills, Cowboys vs Eagles, 49ers vs Packers. Trade on every NFL matchup.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>MLB:</strong> World Series winner, playoff matchups, MVP predictions, division winners, game outcomes
+            <strong>MLB:</strong> Yankees vs Red Sox, Dodgers vs Giants, Astros vs Rangers. Live markets for every game.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>Other Sports:</strong> NHL, soccer, tennis, golf, UFC, and more. If it's a major sporting event, you can trade it.
+            <strong>Other Sports:</strong> NHL, soccer, tennis, UFC, and more. If two teams are playing, you can trade it.
           </p>
         </div>
 
