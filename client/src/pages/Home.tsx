@@ -316,15 +316,6 @@ export default function Home() {
           What Can You Trade On?
         </h2>
 
-        {/* Market Categories Visual */}
-        <div className="mb-8 rounded-lg overflow-hidden shadow-md">
-          <img 
-            src="/images/market-categories-visual.png" 
-            alt="Prediction market categories" 
-            className="w-full"
-          />
-        </div>
-
         <div className="prose prose-lg max-w-none mb-10">
           <p className="text-gray-700 leading-relaxed mb-4">
             <strong>NBA:</strong> Lakers vs Heat, Celtics vs 76ers, Warriors vs Suns. Every major NBA game has live markets.
