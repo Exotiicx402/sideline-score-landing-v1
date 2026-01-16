@@ -59,8 +59,8 @@ export default function Home() {
         {/* Hero Image - Trading Interface */}
         <div className="mb-10 rounded-lg overflow-hidden shadow-lg max-w-md mx-auto">
           <img 
-            src="/images/trading-interface-mockup.png" 
-            alt="Prediction trading app interface" 
+            src="/images/sports-trading-interface.png" 
+            alt="Sports prediction trading app interface" 
             className="w-full"
           />
         </div>
