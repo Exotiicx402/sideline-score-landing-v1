@@ -152,7 +152,7 @@ export default function V4() {
           </p>
         </div>
 
-        <div className="mb-12 rounded-lg overflow-hidden shadow-lg max-w-2xl mx-auto">
+        <div className="mb-12 rounded-lg overflow-hidden shadow-lg max-w-md mx-auto">
           <img 
             src="/images/trading-interface-mockup.png" 
             alt="Prediction trading app interface" 

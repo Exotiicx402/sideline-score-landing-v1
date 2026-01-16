@@ -160,7 +160,7 @@ export default function V6() {
         </div>
 
         {/* Trading Interface */}
-        <div className="mb-12 rounded-lg overflow-hidden shadow-lg max-w-2xl mx-auto">
+        <div className="mb-12 rounded-lg overflow-hidden shadow-lg max-w-md mx-auto">
           <img 
             src="/images/trading-interface-mockup.png" 
             alt="Prediction trading interface" 

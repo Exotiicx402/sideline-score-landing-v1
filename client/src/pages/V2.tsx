@@ -60,7 +60,7 @@ export default function V2() {
         </p>
 
         {/* Hero Image - Trading Interface */}
-        <div className="mb-10 rounded-lg overflow-hidden shadow-lg max-w-2xl mx-auto">
+        <div className="mb-10 rounded-lg overflow-hidden shadow-lg max-w-md mx-auto">
           <img 
             src="/images/trading-interface-mockup.png" 
             alt="Prediction trading app interface" 
