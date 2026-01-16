@@ -120,7 +120,7 @@ export default function Home() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Pick a Sports Outcome</h3>
-              <p className="text-gray-700">Browse live games. Lakers vs Heat tonight? You can buy shares of "Lakers win." Celtics vs 76ers? Buy shares of "Celtics win." Pick which team you think will win.</p>
+              <p className="text-gray-700">Browse live games. Lakers vs Heat? You can buy shares of "Lakers." Celtics vs 76ers? Buy shares of "Celtics." Pick which team you think will win.</p>
             </div>
           </div>
 
@@ -159,9 +159,9 @@ export default function Home() {
         <div className="bg-gray-50 rounded-lg p-8 mb-10">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Real Example:</h3>
           <div className="space-y-4 text-gray-700">
-            <p><strong>Market:</strong> "Lakers vs Heat Tonight"</p>
-            <p><strong>Your prediction:</strong> Yes</p>
-            <p><strong>Current price:</strong> 35¢ per share (meaning the market thinks there's a 35% chance)</p>
+            <p><strong>Market:</strong> "Lakers vs Heat"</p>
+            <p><strong>Your prediction:</strong> Lakers</p>
+            <p><strong>Current price:</strong> 35¢ per share (meaning the market thinks Lakers have a 35% chance to win)</p>
             <p><strong>You buy:</strong> 100 shares for $35</p>
             <p><strong>Outcome:</strong> Lakers win the game</p>
             <p className="text-green-600 font-bold"><strong>Your payout:</strong> $100 (profit: $65)</p>
