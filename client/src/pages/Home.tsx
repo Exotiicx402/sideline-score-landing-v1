@@ -353,7 +353,7 @@ export default function Home() {
         {/* Trust Badges */}
         <div className="mb-12 py-8 bg-gray-50 rounded-lg">
           <img 
-            src="/images/trust-badges.png" 
+            src="/images/trust-badges-updated.png" 
             alt="Platform trust and security badges" 
             className="w-full max-w-3xl mx-auto px-6"
           />
