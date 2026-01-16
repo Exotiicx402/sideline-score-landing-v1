@@ -146,13 +146,13 @@ export default function V3() {
 
         <div className="prose prose-lg max-w-none mb-10">
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>NBA:</strong> Championship winners, MVP predictions, playoff outcomes, player props. The same markets sharp bettors use.
+            <strong>NBA:</strong> Championship winners, MVP predictions, playoff outcomes, game winners. The same markets sharp bettors use.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>NFL:</strong> Super Bowl winner, division champions, MVP races, player performance, game outcomes.
+            <strong>NFL:</strong> Super Bowl winner, division champions, MVP races, playoff outcomes, game winners.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>MLB:</strong> World Series winner, playoff matchups, MVP predictions, season records, individual stats.
+            <strong>MLB:</strong> World Series winner, playoff matchups, MVP predictions, division winners, game outcomes.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             <strong>Other Sports:</strong> NHL, soccer, tennis, golf, UFC. If it's a major sporting event, you can trade it.

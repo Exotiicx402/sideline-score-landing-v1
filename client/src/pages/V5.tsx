@@ -65,7 +65,7 @@ export default function V5() {
 
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
-            There's a platform called <strong>Polymarket</strong> where sports fans are winning money on game outcomes, championships, and player props. It's U.S. regulated. Completely legal. And it's exploding in popularity. Here's exactly how it works:
+            There's a platform called <strong>Polymarket</strong> where sports fans are winning money on game outcomes, championships, and MVP races. It's U.S. regulated. Completely legal. And it's exploding in popularity. Here's exactly how it works:
           </p>
         </div>
 

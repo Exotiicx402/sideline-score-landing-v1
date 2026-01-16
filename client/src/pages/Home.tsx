@@ -68,7 +68,7 @@ export default function Home() {
         {/* Opening Paragraphs */}
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed mb-6">
-            If you follow sports, you probably have strong opinions about what's going to happen next. Which team takes the championship. Who wins MVP. Which player hits the over.
+            If you follow sports, you probably have strong opinions about what's going to happen next. Which team takes the championship. Who wins MVP. Which team wins tonight's game.
           </p>
           
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -123,7 +123,7 @@ export default function Home() {
             <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">Pick a Sports Outcome</h3>
-              <p className="text-gray-700">Browse live markets. Lakers vs Heat tonight? You can buy shares of "Lakers win." Think LeBron scores over 25? Buy shares of that outcome. Pick what you believe will happen.</p>
+              <p className="text-gray-700">Browse live markets. Lakers vs Heat tonight? You can buy shares of "Lakers win." Warriors to win the championship? Buy shares of that outcome. Pick what you believe will happen.</p>
             </div>
           </div>
 
@@ -330,13 +330,13 @@ export default function Home() {
 
         <div className="prose prose-lg max-w-none mb-10">
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>NBA:</strong> Championship winners, MVP predictions, playoff outcomes, player prop bets, season win totals
+            <strong>NBA:</strong> Championship winners, MVP predictions, playoff outcomes, game winners, season win totals
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>NFL:</strong> Super Bowl winner, division champions, MVP races, player performance props, game outcomes
+            <strong>NFL:</strong> Super Bowl winner, division champions, MVP races, playoff outcomes, game winners
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>MLB:</strong> World Series winner, playoff matchups, MVP predictions, season records, individual stats
+            <strong>MLB:</strong> World Series winner, playoff matchups, MVP predictions, division winners, game outcomes
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             <strong>Other Sports:</strong> NHL, soccer, tennis, golf, UFC, and more. If it's a major sporting event, you can trade it.
