@@ -240,7 +240,7 @@ export default function Home() {
               ))}
             </div>
             <p className="text-gray-700 leading-relaxed">
-              "Best place for online gambling. 100% safe and fast transfers. In terms of trustworthiness and having money secure and paid out this is the best. Also they have 0% commission, prices are the best in the world!"
+              "Best place for online gambling. 100% safe and fast transfers. In terms of trustworthiness and having money secure and paid out this is the best. Also they have minimal fees (just 1¢), prices are the best in the world!"
             </p>
           </Card>
 
@@ -262,7 +262,7 @@ export default function Home() {
               ))}
             </div>
             <p className="text-gray-700 leading-relaxed">
-              "It's so far the best prediction market I have used. The 0% fees to trade make it the best betting site I have used from around 30 different sites including Betfair, Bet365, Pinnacle. 10/10"
+              "It's so far the best prediction market I have used. The minimal 1¢ fee makes it the best betting site I have used from around 30 different sites including Betfair, Bet365, Pinnacle. 10/10"
             </p>
           </Card>
 
