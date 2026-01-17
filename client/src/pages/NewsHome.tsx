@@ -113,17 +113,17 @@ export default function NewsHome() {
                       </span>
                     )}
                   </div>
-                  <div className="p-6 flex flex-col justify-center">
+                  <div className="p-6 flex flex-col justify-center bg-white">
                     <span className="text-blue-600 font-semibold text-sm mb-2">
                       {articles[0].category}
                     </span>
                     <h2 className="text-3xl font-bold text-gray-900 mb-3 hover:text-blue-600">
                       {articles[0].title}
                     </h2>
-                    <p className="text-gray-600 text-lg mb-4">
+                    <p className="text-gray-700 text-lg mb-4">
                       {articles[0].excerpt}
                     </p>
-                    <div className="flex items-center gap-3 text-sm text-gray-500">
+                    <div className="flex items-center gap-3 text-sm text-gray-600">
                       <span>{articles[0].author}</span>
                       <span>•</span>
                       <span>{articles[0].date}</span>
