@@ -207,8 +207,11 @@ export default function Article() {
 
         {/* Article Body */}
         <div 
-          className="prose prose-lg max-w-none"
+          className="prose prose-lg max-w-none text-gray-900"
           dangerouslySetInnerHTML={{ __html: article.content }}
+          style={{
+            color: '#111827'
+          }}
         />
 
         {/* Back to Home */}
