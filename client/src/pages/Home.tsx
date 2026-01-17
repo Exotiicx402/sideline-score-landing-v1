@@ -48,17 +48,15 @@ export default function Home() {
       <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <Link href="/">
-              <a className="cursor-pointer">
-                <img 
-                  src="/images/sideline-score-logo.png" 
-                  alt="Sideline Score" 
-                  style={{width: '100px', height: '100px'}}
-                />
-              </a>
+            <Link href="/" className="cursor-pointer">
+              <img 
+                src="/images/sideline-score-logo.png" 
+                alt="Sideline Score" 
+                style={{width: '100px', height: '100px'}}
+              />
             </Link>
             <nav className="hidden md:flex items-center gap-6">
-              <Link href="/"><a className="text-sm font-semibold hover:text-blue-600">HOME</a></Link>
+              <Link href="/" className="text-sm font-semibold hover:text-blue-600">HOME</Link>
               <a href="#" className="text-sm font-semibold hover:text-blue-600">NBA</a>
               <a href="#" className="text-sm font-semibold hover:text-blue-600">NFL</a>
               <a href="#" className="text-sm font-sembold hover:text-blue-600">MLB</a>
@@ -329,8 +327,7 @@ export default function Home() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Related Content</h3>
               <div className="space-y-4">
                 {relatedArticles.map((article) => (
-                  <Link key={article.slug} href={`/article/${article.slug}`}>
-                    <a className="block bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                  <Link key={article.slug} href={`/article/${article.slug}`} className="block bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
                       <img 
                         src={article.image} 
                         alt={article.title}
@@ -345,7 +342,6 @@ export default function Home() {
                         </h4>
                         <p className="text-xs text-gray-600">{article.author}</p>
                       </div>
-                    </a>
                   </Link>
                 ))}
               </div>
