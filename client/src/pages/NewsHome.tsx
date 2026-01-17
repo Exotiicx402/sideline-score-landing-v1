@@ -86,20 +86,16 @@ export default function NewsHome() {
       <header className="border-b border-gray-200 bg-white sticky top-0 z-50 shadow-sm">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <Link href="/">
-              <a className="cursor-pointer">
-                <img 
-                  src="/images/sideline-score-logo.png" 
-                  alt="Sideline Score" 
-                  style={{width: '100px', height: '100px'}}
-                />
-              </a>
+            <Link href="/" className="cursor-pointer">
+              <img 
+                src="/images/sideline-score-logo.png" 
+                alt="Sideline Score" 
+                style={{width: '100px', height: '100px'}}
+              />
             </Link>
             <nav className="hidden md:flex items-center gap-8">
-              <Link href="/">
-                <a className="text-sm font-bold hover:text-blue-600 transition-colors uppercase">
-                  Home
-                </a>
+              <Link href="/" className="text-sm font-bold hover:text-blue-600 transition-colors uppercase">
+                Home
               </Link>
               <a href="#" className="text-sm font-bold hover:text-blue-600 transition-colors uppercase">
                 NBA
@@ -129,8 +125,7 @@ export default function NewsHome() {
 
         {/* Featured Hero Article */}
         <section className="mb-12">
-          <Link href={`/article/${featuredArticle.id}`}>
-            <a className="block">
+          <Link href={`/article/${featuredArticle.id}`} className="block">
               <div className="grid md:grid-cols-2 gap-0 bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow">
                 {/* Left: Image */}
                 <div className="relative h-64 md:h-96">
@@ -162,7 +157,6 @@ export default function NewsHome() {
                   </div>
                 </div>
               </div>
-            </a>
           </Link>
         </section>
 
@@ -171,8 +165,7 @@ export default function NewsHome() {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">News</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {regularArticles.slice(0, 3).map((article) => (
-              <Link key={article.id} href={`/article/${article.id}`}>
-                <a className="block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+              <Link key={article.id} href={`/article/${article.id}`} className="block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                   <div className="relative h-48">
                     <img 
                       src={article.image} 
@@ -196,7 +189,6 @@ export default function NewsHome() {
                       <span>{article.date}</span>
                     </div>
                   </div>
-                </a>
               </Link>
             ))}
           </div>
@@ -207,8 +199,7 @@ export default function NewsHome() {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Features</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {regularArticles.slice(3).map((article) => (
-              <Link key={article.id} href={`/article/${article.id}`}>
-                <a className="block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+              <Link key={article.id} href={`/article/${article.id}`} className="block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                   <div className="relative h-48">
                     <img 
                       src={article.image} 
@@ -232,7 +223,6 @@ export default function NewsHome() {
                       <span>{article.date}</span>
                     </div>
                   </div>
-                </a>
               </Link>
             ))}
           </div>
