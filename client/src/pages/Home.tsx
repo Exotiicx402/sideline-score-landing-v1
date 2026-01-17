@@ -1,15 +1,15 @@
 /**
- * Design Philosophy: Advertorial Blog Style
- * - White background, clean blog layout
- * - Article format with byline and date
- * - Conversational, story-driven copy
- * - Multiple CTAs embedded throughout
- * - Product screenshots and examples
+ * Design Philosophy: Escapist Magazine Style Advertorial
+ * - Magazine-style layout with sidebar
+ * - Category badge, large featured image
+ * - Clean typography with good spacing
+ * - Related content sidebar
+ * - Professional news outlet aesthetic
  */
 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Star } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Home() {
   const currentDate = new Date().toLocaleDateString('en-US', { 
@@ -18,403 +18,350 @@ export default function Home() {
     day: 'numeric' 
   });
 
+  const relatedArticles = [
+    {
+      slug: "nba-playoffs",
+      category: "NBA",
+      title: "NBA Playoffs Preview: Dark Horse Teams to Watch",
+      author: "Mike Johnson",
+      image: "/images/nba-playoffs.jpg"
+    },
+    {
+      slug: "nfl-draft",
+      category: "NFL",
+      title: "2026 NFL Draft: Top 10 Prospects Ranked",
+      author: "Sarah Williams",
+      image: "/images/nfl-draft.jpg"
+    },
+    {
+      slug: "mlb-spring",
+      category: "MLB",
+      title: "MLB Spring Training: Breakout Players to Watch",
+      author: "Tom Anderson",
+      image: "/images/mlb-spring.jpg"
+    }
+  ];
+
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <a href="/">
-              <img 
-                src="/images/sideline-score-logo.png" 
-                alt="Sideline Score" 
-                className="h-8 cursor-pointer" style={{width: '100px', height: '100px'}}
-              />
-            </a>
-            <span className="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded">Advertorial</span>
+            <Link href="/">
+              <a className="cursor-pointer">
+                <img 
+                  src="/images/sideline-score-logo.png" 
+                  alt="Sideline Score" 
+                  style={{width: '100px', height: '100px'}}
+                />
+              </a>
+            </Link>
+            <nav className="hidden md:flex items-center gap-6">
+              <Link href="/"><a className="text-sm font-semibold hover:text-blue-600">HOME</a></Link>
+              <a href="#" className="text-sm font-semibold hover:text-blue-600">NBA</a>
+              <a href="#" className="text-sm font-semibold hover:text-blue-600">NFL</a>
+              <a href="#" className="text-sm font-sembold hover:text-blue-600">MLB</a>
+              <a href="#" className="text-sm font-semibold hover:text-blue-600">COLLEGE</a>
+            </nav>
           </div>
         </div>
       </header>
 
-      {/* Article Content */}
-      <article className="container max-w-4xl mx-auto px-6 py-12">
-        {/* Byline */}
-        <div className="text-sm text-gray-500 mb-8">
-          Published on {currentDate} by <span className="font-semibold">Sideline Score</span>
-        </div>
-
-        {/* Headline */}
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-          This Legal Platform Lets You Win Money on Sports From Any State
-        </h1>
-
-        {/* Subheadline */}
-        <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-          You made $500 doing <em>what</em>? Here's how sports fans are turning their predictions into cash. Legally, in all 50 states.
-        </p>
-
-        {/* Hero Image - Trading Interface */}
-        <div className="mb-10 rounded-lg overflow-hidden shadow-lg max-w-md mx-auto">
-          <img 
-            src="/images/sports-trading-interface.png" 
-            alt="Sports prediction trading app interface" 
-            className="w-full"
-          />
-        </div>
-
-        {/* Opening Paragraphs */}
-        <div className="prose prose-lg max-w-none mb-8">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            If you follow sports, you probably have strong opinions about what's going to happen next. Which team wins tonight's game. Who takes the series. Which team comes back from behind.
-          </p>
-          
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Most people just argue about it online. But there's a growing group of people who are putting real money behind their predictions and winning.
-          </p>
-
-          <p className="text-gray-700 leading-relaxed mb-6">
-            It's called <strong>sports prediction trading</strong>, and it's completely legal. A U.S.-regulated platform called <strong>Polymarket</strong> lets you trade on game outcomes. Lakers vs Heat. Celtics vs 76ers. Warriors vs Suns. Pick which team wins, buy shares, and cash out anytime.
-          </p>
-        </div>
-
-        {/* CTA 1 */}
-        <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-8 mb-10 text-center">
-          <div className="mb-4">
-            <span className="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-bold text-lg">
-              Get $10 Free Upon Sign Up
-            </span>
-          </div>
-          <Button 
-            size="lg"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-12 py-6 rounded-full"
-            onClick={() => window.location.href = 'https://polymarket.com'}
-          >
-            Start Trading. It's Free
-          </Button>
-        </div>
-
-        {/* How It Works Section */}
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          How Does It Work?
-        </h2>
-
-        {/* Profit Calculation Visual */}
-        <div className="mb-8 rounded-lg overflow-hidden shadow-md bg-gray-50 p-6">
-          <img 
-            src="/images/profit-calculation-visual.png" 
-            alt="How prediction market profits work" 
-            className="w-full"
-          />
-        </div>
-
-        <div className="space-y-6 mb-8">
-          <div className="flex gap-4">
-            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
-            <div>
-              <h3 className="font-bold text-gray-900 mb-2">Sign Up (Takes 60 Seconds)</h3>
-              <p className="text-gray-700">Create your account on Polymarket. No credit card required to start. Just basic info and you're in.</p>
+      {/* Main Content Container */}
+      <div className="container mx-auto px-4 py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Main Article Content */}
+          <article className="lg:col-span-2 bg-white rounded-lg shadow-sm p-8">
+            {/* Category Badge */}
+            <div className="mb-4">
+              <span className="inline-block bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded uppercase">
+                Advertorial
+              </span>
             </div>
-          </div>
 
-          <div className="flex gap-4">
-            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
-            <div>
-              <h3 className="font-bold text-gray-900 mb-2">Pick a Sports Outcome</h3>
-              <p className="text-gray-700">Browse live games. Lakers vs Heat? You can buy shares of "Lakers." Celtics vs 76ers? Buy shares of "Celtics." Pick which team you think will win.</p>
+            {/* Headline */}
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+              This Legal Platform Lets You Win Money on Sports From Any State
+            </h1>
+
+            {/* Byline */}
+            <div className="flex items-center gap-3 mb-6 text-sm text-gray-600">
+              <span className="font-semibold">Sideline Score</span>
+              <span>|</span>
+              <span>Last Updated On: {currentDate}</span>
             </div>
-          </div>
 
-          <div className="flex gap-4">
-            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
-            <div>
-              <h3 className="font-bold text-gray-900 mb-2">Buy Shares at Current Price</h3>
-              <p className="text-gray-700">Lakers down at halftime? Shares might be 40¢ (40% chance). Buy 100 shares for $40. If Lakers come back and win, those shares pay $1 each. That's $100 total, $60 profit.</p>
-            </div>
-          </div>
-
-          <div className="flex gap-4">
-            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
-            <div>
-              <h3 className="font-bold text-gray-900 mb-2">Watch the Price Move in Real-Time</h3>
-              <p className="text-gray-700">As the game progresses or news breaks, the price changes. Your position goes up or down based on how the odds shift.</p>
-            </div>
-          </div>
-
-          <div className="flex gap-4">
-            <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
-            <div>
-              <h3 className="font-bold text-gray-900 mb-2">Cash Out Anytime (Or Wait)</h3>
-              <p className="text-gray-700"><strong>You're not locked in.</strong> Lakers take the lead in the 4th? Price jumps to 80¢. Sell now for $80 profit. Or hold until final buzzer and get the full $100 if they win. Your choice.</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8">
-          <p className="text-gray-800 leading-relaxed">
-            <strong>Key difference from traditional betting:</strong> You can exit your position anytime. The price moves based on probability. It's not gambling, it's trading on information. Cash out when you want, whether you're up or down.
-          </p>
-        </div>
-
-        {/* Visual Example */}
-        <div className="bg-gray-50 rounded-lg p-8 mb-10">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">Real Example:</h3>
-          <div className="space-y-4 text-gray-700">
-            <p><strong>Market:</strong> "Lakers vs Heat"</p>
-            <p><strong>Your prediction:</strong> Lakers</p>
-            <p><strong>Current price:</strong> 35¢ per share (meaning the market thinks Lakers have a 35% chance to win)</p>
-            <p><strong>You buy:</strong> 100 shares for $35</p>
-            <p><strong>Outcome:</strong> Lakers win the game</p>
-            <p className="text-green-600 font-bold"><strong>Your payout:</strong> $100 (profit: $65)</p>
-          </div>
-        </div>
-
-        {/* Why People Are Using This */}
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          Why This Is Blowing Up Right Now
-        </h2>
-
-        <div className="prose prose-lg max-w-none mb-8">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>1. It's actually legal.</strong> Polymarket is U.S.-regulated and available in all 50 states. It's not a sportsbook, not a loophole. It's a federally approved prediction market.
-          </p>
-
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>2. You're not betting against the house.</strong> The platform doesn't take the other side of your trade. They just run the marketplace. Other users are on the other side, which means the prices reflect real collective intelligence, not casino odds.
-          </p>
-
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>3. You can trade on anything.</strong> Elections, economics, sports, pop culture, even the weather. If you follow it, you can trade it.
-          </p>
-
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>4. Instant liquidity.</strong> You're not locked in until the event resolves. Trade in and out whenever you want. Cash out early if you change your mind.
-          </p>
-        </div>
-
-        {/* CTA 2 */}
-        <div className="bg-gray-900 text-white rounded-lg p-8 mb-10 text-center">
-          <h3 className="text-2xl font-bold mb-4">Ready to Put Your Knowledge to Work?</h3>
-          <p className="text-gray-300 mb-6">Join thousands of traders who are already winning.</p>
-          <Button 
-            size="lg"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-12 py-6 rounded-full"
-            onClick={() => window.location.href = 'https://polymarket.com'}
-          >
-            Get Started Now. It's Free
-          </Button>
-        </div>
-
-        {/* Success Image */}
-        <div className="mb-12 rounded-lg overflow-hidden shadow-lg">
-          <img 
-            src="/images/person-winning-phone.png" 
-            alt="Person celebrating trading win" 
-            className="w-full"
-          />
-        </div>
-
-        {/* Testimonials Section */}
-        <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-          What People Are Saying
-        </h2>
-        <p className="text-lg text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-          Thousands of people are already using prediction markets to put their knowledge to work.
-        </p>
-
-        <div className="grid md:grid-cols-2 gap-6 mb-16">
-          <Card className="p-6 border-gray-200 bg-white">
-            <div className="flex items-start gap-3 mb-4">
-              <div className="flex-shrink-0">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600">
-                  H
-                </div>
-              </div>
-              <div>
-                <div className="font-bold text-gray-900">Highroller</div>
-                <div className="text-sm text-gray-500">Ireland • Jan 2026</div>
-              </div>
-            </div>
-            <div className="flex gap-1 mb-3">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-5 h-5 fill-blue-600 text-blue-600" />
-              ))}
-            </div>
-            <p className="text-gray-700 leading-relaxed">
-              "Best place for online gambling. 100% safe and fast transfers. In terms of trustworthiness and having money secure and paid out this is the best. Also they have minimal fees (just 1¢), prices are the best in the world!"
-            </p>
-          </Card>
-
-          <Card className="p-6 border-gray-200 bg-white">
-            <div className="flex items-start gap-3 mb-4">
-              <div className="flex-shrink-0">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600">
-                  D
-                </div>
-              </div>
-              <div>
-                <div className="font-bold text-gray-900">David</div>
-                <div className="text-sm text-gray-500">Peru • Nov 2024</div>
-              </div>
-            </div>
-            <div className="flex gap-1 mb-3">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-5 h-5 fill-blue-600 text-blue-600" />
-              ))}
-            </div>
-            <p className="text-gray-700 leading-relaxed">
-              "It's so far the best prediction market I have used. The minimal 1¢ fee makes it the best betting site I have used from around 30 different sites including Betfair, Bet365, Pinnacle. 10/10"
-            </p>
-          </Card>
-
-          <Card className="p-6 border-gray-200 bg-white">
-            <div className="flex items-start gap-3 mb-4">
-              <div className="flex-shrink-0">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600">
-                  R
-                </div>
-              </div>
-              <div>
-                <div className="font-bold text-gray-900">Richard</div>
-                <div className="text-sm text-gray-500">Canada • Jul 2024</div>
-              </div>
-            </div>
-            <div className="flex gap-1 mb-3">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-5 h-5 fill-blue-600 text-blue-600" />
-              ))}
-            </div>
-            <p className="text-gray-700 leading-relaxed">
-              "I use it to supplement my income, it provides great incentives and ways to make cash. Placing predictions on things I think will happen. Great platform."
-            </p>
-          </Card>
-
-          <Card className="p-6 border-gray-200 bg-white">
-            <div className="flex items-start gap-3 mb-4">
-              <div className="flex-shrink-0">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600">
-                  E
-                </div>
-              </div>
-              <div>
-                <div className="font-bold text-gray-900">Euan</div>
-                <div className="text-sm text-gray-500">Australia • Jan 2025</div>
-              </div>
-            </div>
-            <div className="flex gap-1 mb-3">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-5 h-5 fill-blue-600 text-blue-600" />
-              ))}
-            </div>
-            <p className="text-gray-700 leading-relaxed">
-              "There's literally nothing untrustworthy with this site. I enjoy using this site and it has rewarded me very well!"
-            </p>
-          </Card>
-        </div>
-
-        {/* What Can You Trade Section */}
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          What Can You Trade On?
-        </h2>
-
-        <div className="prose prose-lg max-w-none mb-10">
-          <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>NBA:</strong> Lakers vs Heat, Celtics vs 76ers, Warriors vs Suns. Every major NBA game has live markets.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>NFL:</strong> Chiefs vs Bills, Cowboys vs Eagles, 49ers vs Packers. Trade on every NFL matchup.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>MLB:</strong> Yankees vs Red Sox, Dodgers vs Giants, Astros vs Rangers. Live markets for every game.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            <strong>Other Sports:</strong> NHL, soccer, tennis, UFC, and more. If two teams are playing, you can trade it.
-          </p>
-        </div>
-
-        {/* The Part People Ask About */}
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          The Part Everyone Asks About
-        </h2>
-
-        <div className="prose prose-lg max-w-none mb-8">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>Is this legal?</strong> Yes. Polymarket is federally regulated and operates in all 50 states. It's not a sportsbook and not a workaround. It's a licensed prediction market platform.
-          </p>
-
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>How do I get my money out?</strong> Anytime you want. Withdraw to your bank account whenever. No lockup periods, no waiting for events to resolve if you want to exit early.
-          </p>
-
-          <p className="text-gray-700 leading-relaxed mb-6">
-            <strong>What if I'm wrong?</strong> You lose what you paid for the shares. But that's why you can trade out early. Cut your losses or lock in profits before the event resolves.
-          </p>
-        </div>
-
-        {/* Trust Badges */}
-        <div className="mb-12 py-8 bg-gray-50 rounded-lg">
-          <img 
-            src="/images/trust-badges-updated.png" 
-            alt="Platform trust and security badges" 
-            className="w-full max-w-3xl mx-auto px-6"
-          />
-        </div>
-
-        {/* Final CTA */}
-        <div className="bg-blue-600 text-white rounded-lg p-10 mb-10 text-center">
-          <h3 className="text-3xl font-bold mb-4">Start Winning Today</h3>
-          <p className="text-xl text-blue-100 mb-6">
-            Get $10 free just for signing up. No trading required. Takes under a minute.
-          </p>
-          <Button 
-            size="lg"
-            className="bg-white hover:bg-gray-100 text-blue-600 font-bold text-xl px-16 py-8 rounded-full mb-6"
-            onClick={() => window.location.href = 'https://polymarket.com'}
-          >
-            Claim Your $10 Bonus
-          </Button>
-          <div className="flex justify-center gap-4 items-center flex-wrap">
-            <a 
-              href="https://play.google.com/store" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="transition-transform hover:scale-105"
-            >
+            {/* Featured Image */}
+            <div className="mb-8 rounded-lg overflow-hidden">
               <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
-                alt="Get it on Google Play" 
-                className="h-12"
+                src="/images/sports-trading-interface.png" 
+                alt="Sports prediction trading app interface" 
+                className="w-full"
               />
-            </a>
-            <a 
-              href="https://apps.apple.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="transition-transform hover:scale-105"
-            >
-              <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" 
-                alt="Download on the App Store" 
-                className="h-12"
-              />
-            </a>
-          </div>
-        </div>
+            </div>
 
-        {/* Footer */}
-        <div className="border-t border-gray-200 pt-8 mt-12">
-          <div className="flex justify-center gap-8 text-sm text-gray-500 mb-6">
-            <a href="#" className="hover:text-gray-700">Privacy Policy</a>
-            <span>|</span>
-            <a href="#" className="hover:text-gray-700">Terms of Service</a>
-          </div>
-          <p className="text-xs text-gray-500 leading-relaxed text-center max-w-3xl mx-auto">
-            Trading involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Information is provided for convenience only on an "AS IS" basis. Past performance is not necessarily indicative of future results. Polymarket is an information markets platform. Not available in all jurisdictions. Please check your local regulations.
-          </p>
-          <p className="text-xs text-gray-400 text-center mt-4">
-            Copyright © {new Date().getFullYear()} Sideline Score
+            {/* Article Body */}
+            <div className="prose prose-lg max-w-none">
+              <p className="text-gray-700 leading-relaxed mb-6">
+                You made $500 doing <em>what</em>? Here's how sports fans are turning their predictions into cash. Legally, in all 50 states.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                If you follow sports, you probably have strong opinions about what's going to happen next. Which team wins tonight's game. Who takes the series. Which team comes back from behind.
+              </p>
+              
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Most people just argue about it online. But there's a growing group of people who are putting real money behind their predictions and winning.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                It's called <strong>sports prediction trading</strong>, and it's completely legal. A U.S.-regulated platform called <strong>Polymarket</strong> lets you trade on game outcomes. Lakers vs Heat. Celtics vs 76ers. Warriors vs Suns. Pick which team wins, buy shares, and cash out anytime.
+              </p>
+
+              {/* CTA 1 */}
+              <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-6 my-8 text-center">
+                <div className="mb-4">
+                  <span className="inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-bold text-lg">
+                    Get $10 Free Upon Sign Up
+                  </span>
+                </div>
+                <Button 
+                  size="lg"
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-12 py-6 rounded-full"
+                  onClick={() => window.location.href = 'https://polymarket.com'}
+                >
+                  Start Trading. It's Free
+                </Button>
+              </div>
+
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-10">
+                How Does It Work?
+              </h2>
+
+              <div className="space-y-6 mb-8">
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                      1
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg text-gray-900 mb-2">Sign Up (60 seconds)</h3>
+                    <p className="text-gray-700">Create a free account on Polymarket. No credit card required to start.</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                      2
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg text-gray-900 mb-2">Pick a Game</h3>
+                    <p className="text-gray-700">Browse live markets. Lakers vs Heat. Celtics vs 76ers. Every major game has a market.</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                      3
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg text-gray-900 mb-2">Buy Shares of a Team</h3>
+                    <p className="text-gray-700">Shares are priced by probability. If Lakers have a 40% chance to win, shares cost 40¢ each. Buy 100 shares for $40.</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                      4
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg text-gray-900 mb-2">Watch Price Move in Real-Time</h3>
+                    <p className="text-gray-700">As the game unfolds, share prices change. Lakers take the lead? Price jumps to 70¢. You're up 75%.</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold">
+                      5
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg text-gray-900 mb-2">Cash Out Anytime</h3>
+                    <p className="text-gray-700">Sell your shares whenever you want. Or hold until the game ends—if your team wins, shares pay $1 each.</p>
+                  </div>
+                </div>
+              </div>
+
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-10">
+                Real Example:
+              </h2>
+
+              <div className="bg-gray-50 border-l-4 border-blue-600 p-6 mb-8">
+                <p className="text-gray-900 mb-2"><strong>Market:</strong> Lakers vs Heat</p>
+                <p className="text-gray-900 mb-2"><strong>Your prediction:</strong> Lakers</p>
+                <p className="text-gray-900 mb-2"><strong>Current price:</strong> 35¢ per share (meaning the market thinks there's a 35% chance)</p>
+                <p className="text-gray-900 mb-2"><strong>You buy:</strong> 100 shares for $35</p>
+                <p className="text-gray-900 mb-2"><strong>Outcome:</strong> Lakers win the game</p>
+                <p className="text-green-600 font-bold text-lg mt-4">Your payout: $100 (profit: $65)</p>
+              </div>
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Unlike traditional sportsbooks that lock you in, Polymarket lets you exit anytime. See the momentum shifting? Sell early and lock in profits. Think your team will come back? Hold and maximize gains.
+              </p>
+
+              {/* CTA 2 */}
+              <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-6 my-8 text-center">
+                <Button 
+                  size="lg"
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-12 py-6 rounded-full"
+                  onClick={() => window.location.href = 'https://polymarket.com'}
+                >
+                  Get $10 Free to Start Trading
+                </Button>
+              </div>
+
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-10">
+                What Can You Trade On?
+              </h2>
+
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Every major sports game with two teams has live markets:
+              </p>
+
+              <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
+                <li><strong>NBA:</strong> Lakers vs Heat, Celtics vs 76ers, Warriors vs Suns. Every major NBA game has live markets.</li>
+                <li><strong>NFL:</strong> Chiefs vs Bills, Cowboys vs Eagles, 49ers vs Packers. Trade on every NFL matchup.</li>
+                <li><strong>MLB:</strong> Yankees vs Red Sox, Dodgers vs Giants, Astros vs Rangers. Live markets for every game.</li>
+                <li><strong>Other Sports:</strong> NHL, soccer, tennis, UFC, and more. If two teams are playing, you can trade it.</li>
+              </ul>
+
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-10">
+                Why People Are Switching
+              </h2>
+
+              {/* Trust Badges */}
+              <div className="my-8">
+                <img 
+                  src="/images/trust-badges-updated.png" 
+                  alt="U.S. Regulated, Secure Platform, 1¢ Minimal Fees, Instant Withdrawals" 
+                  className="w-full max-w-3xl mx-auto"
+                />
+              </div>
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Traditional sportsbooks take a cut on every bet (called "juice" or "vig"). Polymarket charges just 1¢ per trade. You keep more of your winnings.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                And unlike sportsbooks that lock you in until the game ends, Polymarket lets you cash out anytime. The game's momentum shifts? Sell and secure your profit. No waiting until the final buzzer.
+              </p>
+
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-10">
+                What People Are Saying
+              </h2>
+
+              <div className="space-y-6 mb-8">
+                <Card className="p-6 bg-gray-50">
+                  <p className="text-gray-700 italic mb-3">
+                    "I bought Lakers shares at halftime when they were down. Sold when they took the lead in the 4th. Made $180 in 20 minutes. Way better than traditional betting with minimal 1¢ fee."
+                  </p>
+                  <p className="text-sm text-gray-600 font-semibold">— Marcus T., Chicago</p>
+                </Card>
+
+                <Card className="p-6 bg-gray-50">
+                  <p className="text-gray-700 italic mb-3">
+                    "The ability to cash out early changed everything. I don't have to sweat until the final whistle anymore. I can lock in profits when I see them with minimal 1¢ fee."
+                  </p>
+                  <p className="text-sm text-gray-600 font-semibold">— Jessica L., Miami</p>
+                </Card>
+
+                <Card className="p-6 bg-gray-50">
+                  <p className="text-gray-700 italic mb-3">
+                    "I've been using this for three months. Up $2,400. It's not gambling—it's trading on what I already know about sports."
+                  </p>
+                  <p className="text-sm text-gray-600 font-semibold">— David R., Phoenix</p>
+                </Card>
+              </div>
+
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-10">
+                Getting Started
+              </h2>
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Polymarket is offering new users $10 free upon sign up. No deposit required. No trading required. Just sign up and you get $10 to start.
+              </p>
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                If you've ever argued about a game, you already have the knowledge. Now you can put it to work.
+              </p>
+
+              {/* Final CTA */}
+              <div className="bg-blue-600 text-white rounded-lg p-8 my-8 text-center">
+                <h3 className="text-2xl font-bold mb-4">Ready to Start?</h3>
+                <p className="text-lg mb-6">Get $10 free when you sign up today. No deposit required.</p>
+                <Button 
+                  size="lg"
+                  className="bg-white text-blue-600 hover:bg-gray-100 font-bold text-lg px-12 py-6 rounded-full"
+                  onClick={() => window.location.href = 'https://polymarket.com'}
+                >
+                  Claim Your $10 Free
+                </Button>
+              </div>
+
+              <p className="text-sm text-gray-500 italic mt-8">
+                <em>Sideline Score is supported by our audience. When you sign up through links on our site, we may earn a small affiliate commission.</em>
+              </p>
+            </div>
+          </article>
+
+          {/* Sidebar - Related Content */}
+          <aside className="lg:col-span-1">
+            <div className="sticky top-24">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Related Content</h3>
+              <div className="space-y-4">
+                {relatedArticles.map((article) => (
+                  <Link key={article.slug} href={`/article/${article.slug}`}>
+                    <a className="block bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                      <img 
+                        src={article.image} 
+                        alt={article.title}
+                        className="w-full h-32 object-cover"
+                      />
+                      <div className="p-4">
+                        <span className="inline-block bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded uppercase mb-2">
+                          {article.category}
+                        </span>
+                        <h4 className="font-bold text-sm text-gray-900 mb-2 line-clamp-2">
+                          {article.title}
+                        </h4>
+                        <p className="text-xs text-gray-600">{article.author}</p>
+                      </div>
+                    </a>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-8 mt-16">
+        <div className="container mx-auto px-4 text-center">
+          <p className="text-sm text-gray-400">
+            © 2026 Sideline Score. All rights reserved.
           </p>
         </div>
-      </article>
+      </footer>
     </div>
   );
 }
