@@ -1,5 +1,12 @@
+/**
+ * Design Philosophy: Escapist Magazine Homepage Style
+ * - Clean magazine layout with featured hero article
+ * - Grid-based article cards with category badges
+ * - Professional typography and spacing
+ * - Light gray background with white cards
+ */
+
 import { Link } from "wouter";
-import { Card } from "@/components/ui/card";
 
 export default function NewsHome() {
   const articles = [
@@ -8,10 +15,11 @@ export default function NewsHome() {
       title: "This Legal Platform Lets You Win Money on Sports From Any State",
       excerpt: "You made $500 doing what? Here's how sports fans are turning their predictions into cash. Legally, in all 50 states.",
       image: "/images/sports-trading-interface.png",
-      category: "Featured",
+      category: "ADVERTORIAL",
       author: "Sideline Score",
       date: "January 16, 2026",
-      isAdvertorial: true
+      isAdvertorial: true,
+      isFeatured: true
     },
     {
       id: "nba-playoffs-preview",
@@ -63,31 +71,48 @@ export default function NewsHome() {
       title: "March Madness 2026: Early Bracket Predictions",
       excerpt: "It's never too early to start filling out your bracket. Here are the teams to watch this tournament season.",
       image: "/images/march-madness.jpg",
-      category: "College Sports",
+      category: "COLLEGE",
       author: "Rachel Kim",
       date: "January 13, 2026"
     }
   ];
 
+  const featuredArticle = articles[0];
+  const regularArticles = articles.slice(1);
+
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
+      <header className="border-b border-gray-200 bg-white sticky top-0 z-50 shadow-sm">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link href="/">
-              <img 
-                src="/images/sideline-score-logo.png" 
-                alt="Sideline Score" 
-                className="h-8" style={{width: '100px', height: '100px'}}
-              />
+              <a className="cursor-pointer">
+                <img 
+                  src="/images/sideline-score-logo.png" 
+                  alt="Sideline Score" 
+                  style={{width: '100px', height: '100px'}}
+                />
+              </a>
             </Link>
-            <nav className="hidden md:flex items-center gap-6">
-              <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">NBA</a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">NFL</a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">MLB</a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">College</a>
+            <nav className="hidden md:flex items-center gap-8">
+              <Link href="/">
+                <a className="text-sm font-bold hover:text-blue-600 transition-colors uppercase">
+                  Home
+                </a>
+              </Link>
+              <a href="#" className="text-sm font-bold hover:text-blue-600 transition-colors uppercase">
+                NBA
+              </a>
+              <a href="#" className="text-sm font-bold hover:text-blue-600 transition-colors uppercase">
+                NFL
+              </a>
+              <a href="#" className="text-sm font-bold hover:text-blue-600 transition-colors uppercase">
+                MLB
+              </a>
+              <a href="#" className="text-sm font-bold hover:text-blue-600 transition-colors uppercase">
+                College
+              </a>
             </nav>
           </div>
         </div>
@@ -95,77 +120,119 @@ export default function NewsHome() {
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
-        {/* Featured Article */}
+        {/* Page Title */}
+        <div className="mb-8">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+            Gaming News, Reviews & Features
+          </h1>
+        </div>
+
+        {/* Featured Hero Article */}
         <section className="mb-12">
-          <div className="relative">
-            <Link href={`/article/${articles[0].id}`}>
-              <Card className="overflow-hidden hover:shadow-xl transition-shadow cursor-pointer">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="relative h-64 md:h-auto">
-                    <img 
-                      src={articles[0].image} 
-                      alt={articles[0].title}
-                      className="w-full h-full object-cover"
-                    />
-                    {articles[0].isAdvertorial && (
-                      <span className="absolute top-4 left-4 bg-gray-900 text-white text-xs px-3 py-1 rounded">
-                        Advertorial
-                      </span>
-                    )}
-                  </div>
-                  <div className="p-6 flex flex-col justify-center bg-white">
-                    <span className="text-blue-600 font-semibold text-sm mb-2">
-                      {articles[0].category}
-                    </span>
-                    <h2 className="text-3xl font-bold text-gray-900 mb-3 hover:text-blue-600">
-                      {articles[0].title}
-                    </h2>
-                    <p className="text-gray-700 text-lg mb-4">
-                      {articles[0].excerpt}
-                    </p>
-                    <div className="flex items-center gap-3 text-sm text-gray-600">
-                      <span>{articles[0].author}</span>
-                      <span>•</span>
-                      <span>{articles[0].date}</span>
-                    </div>
+          <Link href={`/article/${featuredArticle.id}`}>
+            <a className="block">
+              <div className="grid md:grid-cols-2 gap-0 bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+                {/* Left: Image */}
+                <div className="relative h-64 md:h-96">
+                  <img 
+                    src={featuredArticle.image} 
+                    alt={featuredArticle.title}
+                    className="w-full h-full object-cover"
+                  />
+                  <span className="absolute top-4 left-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded uppercase">
+                    {featuredArticle.category}
+                  </span>
+                </div>
+                
+                {/* Right: Content */}
+                <div className="p-8 flex flex-col justify-center">
+                  <span className="text-blue-600 font-bold text-sm mb-3 uppercase">
+                    Featured
+                  </span>
+                  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight hover:text-blue-600 transition-colors">
+                    {featuredArticle.title}
+                  </h2>
+                  <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+                    {featuredArticle.excerpt}
+                  </p>
+                  <div className="flex items-center gap-3 text-sm text-gray-600">
+                    <span className="font-semibold">{featuredArticle.author}</span>
+                    <span>•</span>
+                    <span>{featuredArticle.date}</span>
                   </div>
                 </div>
-              </Card>
-            </Link>
-          </div>
+              </div>
+            </a>
+          </Link>
         </section>
 
-        {/* Latest Stories */}
-        <section>
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">Latest Stories</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {articles.slice(1).map((article) => (
+        {/* News Section */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">News</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {regularArticles.slice(0, 3).map((article) => (
               <Link key={article.id} href={`/article/${article.id}`}>
-                <Card className="overflow-hidden hover:shadow-lg transition-shadow cursor-pointer h-full bg-white">
+                <a className="block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                   <div className="relative h-48">
                     <img 
                       src={article.image} 
                       alt={article.title}
                       className="w-full h-full object-cover"
                     />
-                    <span className="absolute top-3 left-3 bg-blue-600 text-white text-xs px-2 py-1 rounded">
+                    <span className="absolute top-3 left-3 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded uppercase">
                       {article.category}
                     </span>
                   </div>
                   <div className="p-5">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2 hover:text-blue-600 line-clamp-2">
+                    <h3 className="text-lg font-bold text-gray-900 mb-2 hover:text-blue-600 transition-colors line-clamp-2">
                       {article.title}
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 text-sm mb-3 line-clamp-2">
                       {article.excerpt}
                     </p>
                     <div className="flex items-center gap-2 text-xs text-gray-500">
-                      <span>{article.author}</span>
+                      <span className="font-semibold">{article.author}</span>
                       <span>•</span>
                       <span>{article.date}</span>
                     </div>
                   </div>
-                </Card>
+                </a>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Features Section */}
+        <section>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Features</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {regularArticles.slice(3).map((article) => (
+              <Link key={article.id} href={`/article/${article.id}`}>
+                <a className="block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+                  <div className="relative h-48">
+                    <img 
+                      src={article.image} 
+                      alt={article.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <span className="absolute top-3 left-3 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded uppercase">
+                      {article.category}
+                    </span>
+                  </div>
+                  <div className="p-5">
+                    <h3 className="text-lg font-bold text-gray-900 mb-2 hover:text-blue-600 transition-colors line-clamp-2">
+                      {article.title}
+                    </h3>
+                    <p className="text-gray-600 text-sm mb-3 line-clamp-2">
+                      {article.excerpt}
+                    </p>
+                    <div className="flex items-center gap-2 text-xs text-gray-500">
+                      <span className="font-semibold">{article.author}</span>
+                      <span>•</span>
+                      <span>{article.date}</span>
+                    </div>
+                  </div>
+                </a>
               </Link>
             ))}
           </div>
@@ -173,40 +240,40 @@ export default function NewsHome() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white mt-16 py-8">
+      <footer className="bg-gray-900 text-white mt-16 py-12">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-8 mb-6">
+          <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h5 className="font-bold mb-3">Sports</h5>
+              <h5 className="font-bold text-lg mb-4">Sports</h5>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white">NBA</a></li>
-                <li><a href="#" className="hover:text-white">NFL</a></li>
-                <li><a href="#" className="hover:text-white">MLB</a></li>
-                <li><a href="#" className="hover:text-white">College</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">NBA</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">NFL</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">MLB</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">College</a></li>
               </ul>
             </div>
             <div>
-              <h5 className="font-bold mb-3">Company</h5>
+              <h5 className="font-bold text-lg mb-4">Company</h5>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white">About Us</a></li>
-                <li><a href="#" className="hover:text-white">Contact</a></li>
-                <li><a href="#" className="hover:text-white">Careers</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
               </ul>
             </div>
             <div>
-              <h5 className="font-bold mb-3">Legal</h5>
+              <h5 className="font-bold text-lg mb-4">Legal</h5>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white">Terms of Service</a></li>
-                <li><a href="#" className="hover:text-white">Advertise</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Advertise</a></li>
               </ul>
             </div>
             <div>
-              <h5 className="font-bold mb-3">Follow Us</h5>
+              <h5 className="font-bold text-lg mb-4">Follow Us</h5>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white">Twitter</a></li>
-                <li><a href="#" className="hover:text-white">Instagram</a></li>
-                <li><a href="#" className="hover:text-white">Facebook</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Twitter</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Instagram</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Facebook</a></li>
               </ul>
             </div>
           </div>
