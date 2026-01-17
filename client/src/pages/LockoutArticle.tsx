@@ -112,6 +112,15 @@ export default function LockoutArticle() {
                 "BETTING SUSPENDED."
               </p>
 
+              {/* Betting Suspended Screenshot */}
+              <div className="my-8 flex justify-center">
+                <img 
+                  src="/images/betting-suspended-screen.png" 
+                  alt="Sportsbook betting suspended screen during critical game moment"
+                  className="rounded-lg shadow-xl max-w-sm w-full"
+                />
+              </div>
+
               <p className="text-gray-700 leading-relaxed mb-6">
                 Not during halftime. Not during a timeout. During the exact moment when the game is on the line—when every second counts, when odds are swinging wildly, when you need to act fast.
               </p>
@@ -283,6 +292,15 @@ export default function LockoutArticle() {
                 </div>
               </div>
 
+              {/* Polymarket Live Trading Screenshot */}
+              <div className="my-8 flex justify-center">
+                <img 
+                  src="/images/live-trading-moment.png" 
+                  alt="Polymarket live trading interface showing active sell button during game"
+                  className="rounded-lg shadow-xl max-w-sm w-full"
+                />
+              </div>
+
               <p className="text-gray-700 leading-relaxed mb-4 font-semibold">
                 The result:
               </p>
@@ -297,6 +315,15 @@ export default function LockoutArticle() {
               <p className="text-gray-700 leading-relaxed mb-8">
                 And because there's no house taking a cut, Polymarket's fees are 900x smaller than traditional sportsbooks. DraftKings charges 10% on every bet. Polymarket charges 0.01%.
               </p>
+
+              {/* Fee Comparison Chart */}
+              <div className="my-8">
+                <img 
+                  src="/images/fee-comparison-chart.png" 
+                  alt="Fee comparison: Traditional sportsbooks vs Polymarket"
+                  className="rounded-lg shadow-xl w-full"
+                />
+              </div>
 
               <p className="text-xl font-bold text-gray-900 mb-8">
                 You keep more of your winnings. You cash out whenever you want. And you never get locked out.
@@ -405,6 +432,15 @@ export default function LockoutArticle() {
               <p className="text-xl font-bold text-gray-900 mb-8">
                 The only "catch" is that you'll wonder why you didn't switch sooner.
               </p>
+
+              {/* Trust Badges */}
+              <div className="my-12 flex justify-center">
+                <img 
+                  src="/images/trust-badges-updated.png" 
+                  alt="Polymarket trust badges: U.S. Regulated, Secure Platform, 1¢ Minimal Fees, Instant Withdrawals"
+                  className="w-full max-w-2xl"
+                />
+              </div>
 
               {/* Final CTA */}
               <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
