@@ -14,7 +14,7 @@ export default function NewsHome() {
       id: "lockout-2",
       title: "How Thousands of Bettors Are Cashing Out Mid-Game & Avoiding Costly Sportsbook 'Lockouts'",
       excerpt: "The gut-wrenching moment you predict a comeback perfectly, only to have your winnings stolen by a grayed-out button…",
-      image: "/images/sports-trading-interface.png",
+      image: "/images/cash-out-unavailable.png",
       category: "ADVERTORIAL",
       author: "Mike Patterson",
       date: "January 16, 2026",
