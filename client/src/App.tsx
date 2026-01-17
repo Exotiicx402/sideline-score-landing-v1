@@ -4,17 +4,18 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
-import NewsHome from "./pages/NewsHome";
-import Article from "./pages/Article";
-
+import Home from './pages/Home';
+import NewsHome from './pages/NewsHome';
+import Article from './pages/Article';
+import LockoutArticle from './pages/LockoutArticle';
 
 
 function Router() {
   return (
      <Switch>
       <Route path="/" component={NewsHome} />
-      <Route path="/article/polymarket-advertorial" component={Home} />
+        <Route path="/article/polymarket-advertorial" component={Home} />
+        <Route path="/article/sportsbook-lockout" component={LockoutArticle} />
       <Route path="/article/:id" component={Article} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}

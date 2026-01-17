@@ -11,13 +11,13 @@ import { Link } from "wouter";
 export default function NewsHome() {
   const articles = [
     {
-      id: "polymarket-advertorial",
-      title: "This Legal Platform Lets You Win Money on Sports From Any State",
-      excerpt: "You made $500 doing what? Here's how sports fans are turning their predictions into cash. Legally, in all 50 states.",
+      id: "sportsbook-lockout",
+      title: "The $50,000 Lockout: Why Sportsbooks Freeze Your Bets During the Most Critical Moments",
+      excerpt: "If you've ever tried to cash out a bet during a crucial play—only to see 'BETTING SUSPENDED' flash across your screen—you're not alone.",
       image: "/images/sports-trading-interface.png",
       category: "ADVERTORIAL",
-      author: "Sideline Score",
-      date: "January 16, 2026",
+      author: "Mike Patterson",
+      date: "January 15, 2026",
       isAdvertorial: true,
       isFeatured: true
     },
