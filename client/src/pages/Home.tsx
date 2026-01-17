@@ -305,9 +305,9 @@ export default function Home() {
               </p>
 
               {/* Final CTA */}
-              <div className="bg-blue-600 text-white rounded-lg p-8 my-8 text-center">
-                <h3 className="text-2xl font-bold mb-4">Ready to Start?</h3>
-                <p className="text-lg mb-6">Get $10 free when you sign up today. No deposit required.</p>
+              <div className="bg-blue-600 rounded-lg p-8 my-8 text-center">
+                <h3 className="text-2xl font-bold mb-4 text-white">Ready to Start?</h3>
+                <p className="text-lg mb-6 text-white">Get $10 free when you sign up today. No deposit required.</p>
                 <Button 
                   size="lg"
                   className="bg-white text-blue-600 hover:bg-gray-100 font-bold text-lg px-12 py-6 rounded-full"
