@@ -136,7 +136,7 @@ export default function NewsHome() {
 
         {/* Featured Hero Article */}
         <section className="mb-12">
-          <Link href={`/article/${featuredArticle.id}`} className="block">
+          <Link href={featuredArticle.isAdvertorial ? `/${featuredArticle.id}` : `/article/${featuredArticle.id}`} className="block">
               <div className="grid md:grid-cols-2 gap-0 bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow">
                 {/* Left: Image */}
                 <div className="relative h-64 md:h-96">
@@ -176,7 +176,7 @@ export default function NewsHome() {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">News</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {regularArticles.slice(0, 3).map((article) => (
-              <Link key={article.id} href={`/article/${article.id}`} className="block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+              <Link key={article.id} href={article.isAdvertorial ? `/${article.id}` : `/article/${article.id}`} className="block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                   <div className="relative h-48">
                     <img 
                       src={article.image} 
@@ -210,7 +210,7 @@ export default function NewsHome() {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Features</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {regularArticles.slice(3).map((article) => (
-              <Link key={article.id} href={`/article/${article.id}`} className="block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+              <Link key={article.id} href={article.isAdvertorial ? `/${article.id}` : `/article/${article.id}`} className="block bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                   <div className="relative h-48">
                     <img 
                       src={article.image} 
