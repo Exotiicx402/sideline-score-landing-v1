@@ -200,3 +200,9 @@
   color: #111827 !important;
   font-weight: 600;
 }
+
+/* Override prose styling for blue CTA sections */
+.bg-blue-600 h3,
+.bg-blue-600 p {
+  color: white !important;
+}
