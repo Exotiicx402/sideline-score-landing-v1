@@ -111,8 +111,8 @@ export default function Lockout2Article() {
               {/* Grayed Out Button Image */}
               <div className="my-8 flex justify-center">
                 <img 
-                  src="/images/betting-suspended-screen.png" 
-                  alt="Grayed out cash-out button when you need it most"
+                  src="/images/cash-out-unavailable.png" 
+                  alt="Lakers up 89-76 in 3rd quarter with $180 potential return, but cash out button shows 'Currently Unavailable'"
                   className="rounded-lg shadow-xl max-w-sm w-full"
                 />
               </div>
