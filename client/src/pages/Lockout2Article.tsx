@@ -347,6 +347,14 @@ export default function Lockout2Article() {
                 />
               </div>
 
+              {/* Risk-Free Offer */}
+              <div className="bg-green-50 border-2 border-green-500 rounded-lg p-8 my-12">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">You Have Nothing to Lose</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  When you sign up, you immediately have <span className="font-bold text-green-600">$10 to trade with</span>—no deposit necessary. Test it out on this weekend's games. Experience what it's like to cash out whenever you want. If you don't see the difference, you haven't lost a penny.
+                </p>
+              </div>
+
               {/* Final CTA */}
               <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
                 Stop Being Right for Nothing
