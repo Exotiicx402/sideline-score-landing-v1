@@ -141,7 +141,7 @@ export default function NewsHome() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {articles.slice(1).map((article) => (
               <Link key={article.id} href={`/article/${article.id}`}>
-                <Card className="overflow-hidden hover:shadow-lg transition-shadow cursor-pointer h-full">
+                <Card className="overflow-hidden hover:shadow-lg transition-shadow cursor-pointer h-full bg-white">
                   <div className="relative h-48">
                     <img 
                       src={article.image} 
