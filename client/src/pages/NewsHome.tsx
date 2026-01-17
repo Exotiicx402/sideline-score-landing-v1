@@ -11,6 +11,17 @@ import { Link } from "wouter";
 export default function NewsHome() {
   const articles = [
     {
+      id: "lockout-2",
+      title: "How Thousands of Bettors Are Cashing Out Mid-Game & Avoiding Costly Sportsbook 'Lockouts'",
+      excerpt: "The gut-wrenching moment you predict a comeback perfectly, only to have your winnings stolen by a grayed-out button…",
+      image: "/images/sports-trading-interface.png",
+      category: "ADVERTORIAL",
+      author: "Mike Patterson",
+      date: "January 16, 2026",
+      isAdvertorial: true,
+      isFeatured: true
+    },
+    {
       id: "sportsbook-lockout",
       title: "The $50,000 Lockout: Why Sportsbooks Freeze Your Bets During the Most Critical Moments",
       excerpt: "If you've ever tried to cash out a bet during a crucial play—only to see 'BETTING SUSPENDED' flash across your screen—you're not alone.",
@@ -19,7 +30,7 @@ export default function NewsHome() {
       author: "Mike Patterson",
       date: "January 15, 2026",
       isAdvertorial: true,
-      isFeatured: true
+      isFeatured: false
     },
     {
       id: "nba-playoffs-preview",

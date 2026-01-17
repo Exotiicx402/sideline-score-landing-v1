@@ -7,7 +7,8 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from './pages/Home';
 import NewsHome from './pages/NewsHome';
 import Article from './pages/Article';
-import LockoutArticle from './pages/LockoutArticle';
+import LockoutArticle from "./pages/LockoutArticle";
+import Lockout2Article from "./pages/Lockout2Article";
 
 
 function Router() {
@@ -15,7 +16,8 @@ function Router() {
      <Switch>
       <Route path="/" component={NewsHome} />
         <Route path="/article/polymarket-advertorial" component={Home} />
-        <Route path="/article/sportsbook-lockout" component={LockoutArticle} />
+             <Route path="/sportsbook-lockout" component={LockoutArticle} />
+      <Route path="/lockout-2" component={Lockout2Article} />
       <Route path="/article/:id" component={Article} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
